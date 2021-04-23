@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title or renderData.title or metadata.title }}</title>
+    <!-- TODO: favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" href="/favicon.ico" />
+    <!-- TODO: meta tags -->
+    {% set css %}
+      {% include "../../assets/styles/inline.css" %}
+    {% endset %}
+    <style>{{ css | minifyCss | safe }}</style>
+    <link rel="stylesheet" media="print" href="/assets/styles/extra.css" onload="this.media='all'" />
+  </head>
+  <body class="antialiased w-full text-gray-700">
+    <a href="#main-content">Skip to main content</a>
+    <header>
+    </header>
+    <main>
+      <span id="main-content" tabindex="-1"></span>
+      {{ content | safe }}
+    </main>
+    <footer>
+    </footer>
+    {% set js %}
+      {% include "../../assets/scripts/inline.js" %}
+    {% endset %}
+    <script>{{ js | minifyJs | safe }}</script>
+    <script src="/assets/scripts/extra.js" async></script>
+  </body>
+</html>
