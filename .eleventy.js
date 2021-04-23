@@ -46,6 +46,7 @@ module.exports = function (eleventyConfig) {
     replacement: '-',
     remove: /[*+~.·,()'"`´%!?¿:@]/g
   }));
+  eleventyConfig.addFilter('removeIndexHtml', url => url.replace(/index.html$/, ''));
 
   const md = markdownIt({
     html: true,
