@@ -1,8 +1,8 @@
 {
-  "site_name": "Starter",
-  "title": "Eleventy Starter Boilerplate",
-  "description": "Starter code for your 11ty blog Boilerplate",
-  "url": "https://example.com",
+  "site_name": "nickmarso.com",
+  "title": "Nick Marso",
+  "description": "Nick Marso develops web applications.",
+  "url": "https://nickmarso.com",
   "locale": "en",
-  "author": "Anonymous"
+  "author": "Nick Marsceau"
 }
