@@ -1,0 +1,280 @@
+/* Table of Contents
+  0. Reset
+  1. Variables
+  2. Helpers
+  3. Layout
+  4. Theme
+  5. Components
+    1. Skip to Main Content
+    2. Brand
+    3. Copyright
+*/
+
+/* 0. Reset */
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline-offset: 0;
+}
+
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, figure, figcaption, footer, header,
+menu, nav, output, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    line-height: 1.5;
+    font-size: var(--copyFontSize);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    background-color: var(--lightGray);
+    color: #212529;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table th, table td {
+    vertical-align: top;
+}
+
+/* Lists */
+ol {
+    list-style-type: decimal;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+li {
+    padding-bottom: .5em;
+    line-height: 1.3em;
+}
+
+/* Quotes */
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* Pictures */
+picture {
+    vertical-align: bottom;
+}
+
+picture img {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* Text styles */
+
+dt {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+button {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* 1. Variables */
+:root {
+    --prussionBlue: #13293d;
+    --sapphireBlue: #006494;
+    --celadonBlue: #247ba0;
+    --carolinaBlue: #1b98e0;
+    --lightGray: #e8f1f2;
+
+    --siteMaxWidth: 40rem;
+
+    --brandFontSize: 1rem;
+    --copyFontSize: 0.9rem;
+    --footerFontSize: 0.7rem;
+}
+
+@media screen and (min-width: 200px) {
+    :root {
+        --brandFontSize: 1.3rem;
+        --copyFontSize: 1rem;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    :root {
+        --brandFontSize: 1.8rem;
+        --footerFontSize: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    :root {
+        --brandFontSize: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    :root {
+        --brandFontSize: 3rem;
+    }
+}
+
+/* 2. Helpers */
+.hidden-visually {
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.hidden-all {
+    display: none;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+/* 3. Layout */
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: min-content 1fr min-content;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+}
+
+body > header, body > main, body > footer {
+    max-width: var(--siteMaxWidth);
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+body > header {
+    grid-area: header;
+}
+
+body > main {
+    grid-area: main;
+    padding-top: 1rem;
+}
+
+body > footer {
+    grid-area: footer;
+}
+
+/* 4. Theme */
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 0.25em;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* 5. Components */
+
+/* 5.1 Skip to Main Content */
+a[href="#main-content"] {
+    z-index: 999;
+    position: fixed;
+    top: -100px;
+    padding: 0.5em 1em 0.75em;
+    left: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px -3px 20px -2px var(--prussionBlue);
+    background-color: #fff;
+    color: var(--prussionBlue);
+    border: 3px solid var(--prussionBlue);
+    border-top: none;
+}
+
+a[href="#main-content"]:focus, a[href="#main-content"]:active {
+    top: 0;
+    text-decoration: underline;
+    outline: none;
+}
+
+/* 5.2 Brand */
+.brand {
+    color: var(--prussionBlue);
+    font-family: 'Fugaz One', sans-serif;
+    font-size: var(--brandFontSize);
+    text-transform: uppercase;
+    margin-block: 1rem 0.75rem;
+    border-bottom: 1rem solid var(--sapphireBlue);
+    display: inline-block;
+    margin-inline: -1rem;
+    padding-inline: 1rem;
+}
+
+/* 5.3 Copyright */
+body > footer {
+    text-align: right;
+}
+
+.copyright {
+    color: var(--prussionBlue);
+    border-top: 0.5rem solid var(--sapphireBlue);
+    font-size: var(--footerFontSize);
+    display: inline-block;
+    padding-top: 0.5rem;
+    margin-inline: -1rem;
+    padding-inline: 1rem;
+}

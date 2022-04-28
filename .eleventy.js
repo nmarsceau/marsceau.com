@@ -10,8 +10,8 @@ let markdownIt = require('markdown-it');
 let markdownItAnchor = require('markdown-it-anchor');
 
 module.exports = function (eleventyConfig) {
-  // TODO: add pass through copies of static files?
-  eleventyConfig.addPassthroughCopy('src/assets');
+  eleventyConfig.addPassthroughCopy({'src/_includes/assets': '/assets'});
+  eleventyConfig.addPassthroughCopy({'src/_includes/assets/images/favicon': '/'});
 
   eleventyConfig.addPlugin(eleventySyntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigation);

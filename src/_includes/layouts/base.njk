@@ -1,33 +1,40 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or renderData.title or metadata.title }}</title>
-    <!-- TODO: favicons -->
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="icon" href="/favicon.ico" />
-    <!-- TODO: meta tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="author" content="Nick Marsceau">
+    <meta name="title" content="Nick Marsceau develops web applications.">
+    <meta name="description" content="Nick Marsceau is a full stack web developer from South Carolina.">
+    <meta name="keyword" content="nick, marsceau, full stack, web, software, developer">
+    <meta name="generator" content="eleventy">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     {% set css %}
-      {% include "../../assets/styles/inline.css" %}
+      {% include "../assets/styles/inline.css" %}
     {% endset %}
     <style>{{ css | minifyCss | safe }}</style>
-    <link rel="stylesheet" media="print" href="/assets/styles/extra.css" onload="this.media='all'" />
+    <link rel="stylesheet" media="print" href="/assets/styles/extra.css" onload="this.media='all'">
   </head>
   <body class="antialiased w-full text-gray-700">
     <a href="#main-content">Skip to main content</a>
     <header>
+      <div class="brand">Nick Marsceau</div>
     </header>
-    <main>
-      <span id="main-content" tabindex="-1"></span>
-      {{ content | safe }}
-    </main>
+    {{ content | safe }}
     <footer>
+      <p class="copyright">
+        <span class="no-wrap">&copy; Nick Marsceau <span id="copyrightCurrentYear">2022</span>.</span> <span class="no-wrap">All Rights Reserved.</span>
+      </p>
     </footer>
     {% set js %}
-      {% include "../../assets/scripts/inline.js" %}
+      {% include "../assets/scripts/inline.js" %}
     {% endset %}
     <script>{{ js | minifyJs | safe }}</script>
     <script src="/assets/scripts/extra.js" async></script>
