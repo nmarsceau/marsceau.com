@@ -3,7 +3,12 @@
     <{{ headingTag }}>
         <a href="{{ post.url }}">{{ post.data.title }}</a>
     </{{ headingTag }}>
-    <!-- TODO: display the post date here. -->
+    <p class="postedDate">
+        <small>
+            Posted on
+            <time datetime="{{ post.data.date.toISOString().split('T')[0] }}">{{ post.data.date.toLocaleDateString() }}</time>
+        </small>
+    </p>
     <!-- TODO: display the post tags here. -->
     <p>{{ post.data.description }}
 </article>
