@@ -1,24 +1,23 @@
 ---
-title: Blog | Nick Marsceau
 layout: layouts/simple.njk
+permalink: /blog/
+eleventyExcludeFromCollections: true
+title: Blog | Nick Marsceau
 pagination:
   data: collections.posts
   size: 5
   alias: posts
   reverse: true
 ---
-<h1>Blog</h1>
+<h1>The Blog</h1>
 
-<ul>
-  {% for post in posts %}
-  <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-  {% endfor %}
-</ul>
+{% set postList = posts %}
+{% include "layouts/components/postList.njk" %}
 
 {% if pagination.previous %}
-<a href="{{ pagination.previous | removeIndexHtml }}">Newer Posts</a>
+    <a href="{{ pagination.previous | removeIndexHtml }}">Newer Posts</a>
 {% endif %}
 
 {% if pagination.next %}
-<a href="{{ pagination.next | removeIndexHtml }}">Older Posts</a>
+    <a href="{{ pagination.next | removeIndexHtml }}">Older Posts</a>
 {% endif %}

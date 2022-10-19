@@ -14,16 +14,16 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-navigation": "^0.1.5",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "eleventy-plugin-lazyimages": "^2.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "clean-css": "^4.2.1",
+    "eleventy-plugin-lazyimages": "^2.0.1",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
     "html-minifier": "^4.0.0",
-    "uglify-es": "^3.3.9",
     "luxon": "^1.25.0",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.7",
-    "eslint": "^7.10.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.1"
+    "uglify-es": "^3.3.9"
   }
 }

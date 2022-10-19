@@ -1,0 +1,16 @@
+---
+layout: layouts/simple.njk
+---
+<article>
+    <header>
+        <h1>{{ title }}</h1>
+        <p class="postedDate">
+            <small>
+                Posted on
+                <time datetime="{{ date.toISOString().split('T')[0] }}">{{ date.toLocaleDateString() }}</time>
+            </small>
+        </p>
+        <!-- TODO: display the post tags here. -->
+    </header>
+    <section>{{ content | safe }}</section>
+</article>

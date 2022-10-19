@@ -8,6 +8,9 @@
     1. Skip to Main Content
     2. Brand
     3. Copyright
+    4. Post Cards
+    5. Posts
+    6. Code Blocks
 */
 
 /* 0. Reset */
@@ -125,6 +128,19 @@ strong {
     font-weight: bold;
 }
 
+small {
+    font-size: 0.85em;
+}
+
+a {
+    color: var(--sapphireBlue);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
 /* 1. Variables */
 :root {
     --prussionBlue: #13293d;
@@ -193,6 +209,7 @@ body {
         "main"
         "footer"
     ;
+    row-gap: 2em;
 }
 
 body > header, body > main, body > footer {
@@ -218,14 +235,19 @@ body > footer {
 /* 4. Theme */
 h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 0.25em;
+    color: var(--prussionBlue);
+    line-height: 1;
 }
 
 h1 {
     font-size: 2.5em;
+    font-family: 'Fugaz One', sans-serif;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 /* 5. Components */
@@ -264,6 +286,11 @@ a[href="#main-content"]:focus, a[href="#main-content"]:active {
     padding-inline: 1rem;
 }
 
+.brand a {
+    color: var(--prussionBlue);
+    text-decoration: none;
+}
+
 /* 5.3 Copyright */
 body > footer {
     text-align: right;
@@ -277,4 +304,30 @@ body > footer {
     padding-top: 0.5rem;
     margin-inline: -1rem;
     padding-inline: 1rem;
+}
+
+/* 5.4 Post Cards */
+.postCard {
+    margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 500px) {
+    .postCard {
+        max-width: 400px;
+    }
+}
+
+.postCard h2 {
+    line-height: 1;
+    margin-block: 0 0.2em;
+}
+
+/* 5.5 Posts */
+.postedDate {
+    line-height: 0.75;
+}
+
+/* 5.6 Code Blocks */
+pre[class*="language-"] {
+    margin-block: 1.5em;
 }

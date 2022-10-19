@@ -1,5 +1,7 @@
 {
-  "layout": "layouts/post.njk",
-  "permalink": "{{ page.fileSlug }}/index.html",
-  "tags": "posts"
+    "layout": "layouts/components/post.njk",
+    "permalink": "/blog/{{ page.fileSlug }}/index.html",
+    "tags": [
+        "posts"
+    ]
 }
