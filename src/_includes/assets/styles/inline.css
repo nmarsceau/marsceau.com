@@ -378,7 +378,7 @@ pre[class*="language-"].codeWrapper {
     max-width: var(--siteMaxWidth);
 }
 
-@media screen and (min-width: 41rem) {
+@media screen and (min-width: 40rem) {
     pre[class*="language-"].codeWrapper {
         width: 100%;
     }
