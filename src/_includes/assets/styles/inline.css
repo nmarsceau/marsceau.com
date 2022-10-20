@@ -374,7 +374,7 @@ body > footer {
 /* 5.6 Code Blocks */
 pre[class*="language-"].codeWrapper {
     margin-block: 1.5em;
-    width: calc(100vw - 3rem);
+    width: calc(100vw - 2rem);
     max-width: var(--siteMaxWidth);
 }
 
