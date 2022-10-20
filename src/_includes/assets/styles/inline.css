@@ -210,6 +210,7 @@ body {
         "footer"
     ;
     row-gap: 2em;
+    overflow-x: hidden;
 }
 
 body > header, body > main, body > footer {
@@ -282,8 +283,8 @@ a[href="#main-content"]:focus, a[href="#main-content"]:active {
     margin-block: 1rem 0.75rem;
     border-bottom: 1rem solid var(--sapphireBlue);
     display: inline-block;
-    margin-inline: -1rem;
-    padding-inline: 1rem;
+    margin-inline: -0.5rem;
+    padding-inline: 0.5rem;
     position: relative;
 }
 
@@ -296,6 +297,13 @@ a[href="#main-content"]:focus, a[href="#main-content"]:active {
     bottom: -1.25rem;
     z-index: -1;
     background-color: var(--carolinaBlue);
+}
+
+@media screen and (min-width: 42rem) {
+    .brand {
+        margin-inline: -1rem;
+        padding-inline: 1rem;
+    }
 }
 
 .brand a {
@@ -314,9 +322,10 @@ body > footer {
     font-size: var(--footerFontSize);
     display: inline-block;
     padding-block-start: 0.5rem;
-    margin-inline: -1rem;
-    padding-inline: 1rem;
+    margin-inline: -0.5rem;
+    padding-inline: 1rem 0.5rem;
     position: relative;
+    max-width: 70%;
 }
 
 .copyright::after {
@@ -328,6 +337,13 @@ body > footer {
     top: -0.3rem;
     z-index: -1;
     background-color: var(--carolinaBlue);
+}
+
+@media screen and (min-width: 42rem) {
+    .copyright {
+        margin-inline: -1rem;
+        padding-inline: 1rem;
+    }
 }
 
 /* 5.4 Post Cards */
@@ -356,6 +372,14 @@ body > footer {
 }
 
 /* 5.6 Code Blocks */
-pre[class*="language-"] {
+pre[class*="language-"].codeWrapper {
     margin-block: 1.5em;
+    width: calc(100vw - 3rem);
+    max-width: var(--siteMaxWidth);
+}
+
+@media screen and (min-width: 41rem) {
+    pre[class*="language-"].codeWrapper {
+        width: 100%;
+    }
 }

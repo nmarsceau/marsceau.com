@@ -8,7 +8,7 @@ tags:
 ---
 This week I learned about YAML anchors. A YAML anchor is a way to assign a name to a chunk of YAML, then reuse that chunk elsewhere in the document.
 
-<pre><code class="language-yaml">
+<pre class="codeWrapper"><code class="language-yaml">
 twins:
   Fred: &twin-details
     hairColor: red
@@ -21,7 +21,7 @@ In the example above, the name "twin-details" references all the properties of F
 
 One practical use I have found for these is in docker-compose files. A common docker setup for a development environment is to have a single proxy container and several application containers. In that setup, each container needs an <code class="language-yaml">extra_hosts</code> section containing the host names and IP addresses for all containers in the docker compose. That repeated block is a perfect use-case for a YAML anchor.
 
-<pre><code class="language-yaml">
+<pre class="codeWrapper"><code class="language-yaml">
 version: '3'
 services:
   proxy:
