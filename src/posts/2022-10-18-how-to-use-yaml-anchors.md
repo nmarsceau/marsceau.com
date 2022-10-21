@@ -10,11 +10,11 @@ This week I learned about YAML anchors. A YAML anchor is a way to assign a name 
 
 <pre class="codeWrapper"><code class="language-yaml">
 twins:
-  Fred: &twin-details
+  Fred: &twinDetails
     hairColor: red
     lastName: Weasley
     mischievous: true
-  George: *twin-details
+  George: *twinDetails
 </code></pre>
 
 In the example above, the name "twin-details" references all the properties of Fred, and George gets an exact copy of the same properties. Try pasting this example into [yamllint.com](http://www.yamllint.com/) to see how it expands out.
