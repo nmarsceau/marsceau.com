@@ -5,13 +5,10 @@ layout: layouts/simple.njk
     <!-- TODO: add a back button here -->
     <header>
         <h1>{{ title }}</h1>
-        <p class="postedDate">
-            <small>
-                Posted on
-                <time datetime="{{ date.toISOString().split('T')[0] }}">{{ date.toLocaleDateString() }}</time>
-            </small>
-        </p>
-        <!-- TODO: display the post tags here. -->
+        <div class="postInfo">
+            {% include "layouts/components/postDate.njk" %}
+            {% include "layouts/components/postTags.njk" %}
+        </div>
     </header>
     <section>{{ content | safe }}</section>
 </article>

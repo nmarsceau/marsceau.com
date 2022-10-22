@@ -1,0 +1,5 @@
+<div class="tagList">
+    {% for tag in tags | filterOut(['posts']) %}
+        <span>{{ tag }}</span>
+    {% endfor %}
+</div>

@@ -49,6 +49,8 @@ module.exports = function (eleventyConfig) {
         remove: /[*+~.·,()'"`´%!?¿:@]/g
     }));
     eleventyConfig.addFilter('removeIndexHtml', url => url.replace(/index.html$/, ''));
+    eleventyConfig.addFilter('limit', (list, limit) => list.slice(0, limit));
+    eleventyConfig.addFilter('filterOut', (list, remove) => list.filter(item => !remove.includes(item)));
 
     const md = markdownIt({
         html: true,
