@@ -11,6 +11,7 @@
     4. Post Cards
     5. Posts
     6. Code Blocks
+    7. Hand Emoji Waving
 */
 
 /* 0. Reset */
@@ -425,5 +426,59 @@ pre[class*="language-"].codeWrapper {
 @media screen and (min-width: 40rem) {
     pre[class*="language-"].codeWrapper {
         width: 100%;
+    }
+}
+
+/* 5.7 Hand Emoji Waving */
+@media screen and (prefers-reduced-motion: no-preference) {
+    .hand-waving {
+        display: inline-block;
+        -webkit-animation: spin 2s ease-in-out;
+        -moz-animation: spin 2s ease-in-out;
+        animation: spin 2s ease-in-out;
+        --leftRotationDistance: -15deg;
+        --rightRotationDistance: 25deg;
+        transform-origin: bottom right;
+        font-size: 1.4em;
+        line-height: 1;
+    }
+
+    @-moz-keyframes spin {
+        33% {
+            -moz-transform: rotate(var(--leftRotationDistance));
+        }
+        66% {
+            -moz-transform: rotate(var(--rightRotationDistance));
+        }
+        100% {
+            -moz-transform: rotate(0deg);
+        }
+    }
+
+    @-webkit-keyframes spin {
+        33% {
+            -webkit-transform: rotate(var(--leftRotationDistance));
+        }
+        66% {
+            -webkit-transform: rotate(var(--rightRotationDistance));
+        }
+        100% {
+            -webkit-transform: rotate(0deg);
+        }
+    }
+
+    @keyframes spin {
+        33% {
+            -webkit-transform: rotate(var(--leftRotationDistance));
+            transform: rotate(var(--leftRotationDistance));
+        }
+        66% {
+            -webkit-transform: rotate(var(--rightRotationDistance));
+            transform: rotate(var(--rightRotationDistance));
+        }
+        100% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+        }
     }
 }
