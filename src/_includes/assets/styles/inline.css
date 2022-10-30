@@ -433,14 +433,14 @@ pre[class*="language-"].codeWrapper {
 @media screen and (prefers-reduced-motion: no-preference) {
     .hand-waving {
         display: inline-block;
-        -webkit-animation: spin 2s ease-in-out;
-        -moz-animation: spin 2s ease-in-out;
-        animation: spin 2s ease-in-out;
+        font-size: 1.4em;
+        line-height: 1;
+        -webkit-animation: spin 1s ease-in-out;
+        -moz-animation: spin 1s ease-in-out;
+        animation: spin 1s ease-in-out;
         --leftRotationDistance: -15deg;
         --rightRotationDistance: 25deg;
         transform-origin: bottom right;
-        font-size: 1.4em;
-        line-height: 1;
     }
 
     @-moz-keyframes spin {
