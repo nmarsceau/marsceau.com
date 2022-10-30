@@ -410,8 +410,8 @@ body > footer {
 
 .tagList span {
     font-size: 0.7em;
-    background-color: var(--celadonBlue);
-    color: white;
+    border: 1px solid var(--celadonBlue);
+    color: var(--celadonBlue);
     padding: 0.25em 1em 0.4em;
     border-radius: 2em;
 }
