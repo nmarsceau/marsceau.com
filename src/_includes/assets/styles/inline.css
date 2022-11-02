@@ -12,6 +12,7 @@
     5. Posts
     6. Code Blocks
     7. Hand Emoji Waving
+    8. Images
 */
 
 /* 0. Reset */
@@ -481,4 +482,14 @@ pre[class*="language-"].codeWrapper {
             transform: rotate(0deg);
         }
     }
+}
+
+/* 5.8 Images */
+.content-image {
+    max-width: 100%;
+    display: inline-block;
+    margin-block: 0 1rem;
+    border: 2px solid var(--carolinaBlue);
+    border-inline-end-color: var(--sapphireBlue);
+    border-block-end-color: var(--sapphireBlue);
 }
