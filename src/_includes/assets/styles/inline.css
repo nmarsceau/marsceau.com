@@ -315,7 +315,7 @@ a[href="#main-content"]:focus, a[href="#main-content"]:active {
     left: 0.25rem;
     bottom: -1.25rem;
     z-index: -1;
-    background-color: var(--carolinaBlue);
+    background-color: var(--celadonBlue);
 }
 
 @media screen and (min-width: 42rem) {
