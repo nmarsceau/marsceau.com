@@ -1,7 +1,7 @@
 ---
 title: PHP getopt Function
 description: This week I learned about the getopt function in PHP. It is used to parse the arguments passed to a PHP script when run from the command line.
-date: 2023-05-26T11:00:00-05:00
+date: 2023-07-11T11:00:00-05:00
 tags:
     - this-week-i-learned
     - php
