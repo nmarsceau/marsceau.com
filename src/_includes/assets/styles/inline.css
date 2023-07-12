@@ -13,6 +13,7 @@
     6. Code Blocks
     7. Hand Emoji Waving
     8. Images
+    9. Quotes
 */
 
 /* 0. Reset */
@@ -301,7 +302,7 @@ a[href="#main-content"]:focus, a[href="#main-content"]:active {
     font-size: var(--brandFontSize);
     text-transform: uppercase;
     margin-block: 1rem 0.75rem;
-    border-bottom: 1rem solid var(--sapphireBlue);
+    border-block-end: 1rem solid var(--sapphireBlue);
     display: inline-block;
     margin-inline: -0.5rem;
     padding-inline: 0.5rem;
@@ -492,4 +493,27 @@ pre[class*="language-"].codeWrapper {
     border: 2px solid var(--carolinaBlue);
     border-inline-end-color: var(--sapphireBlue);
     border-block-end-color: var(--sapphireBlue);
+}
+
+/* 5.9 Quotes */
+blockquote {
+    position: relative;
+    margin-inline-start: 1rem;
+    border-inline-start: 0.5rem solid var(--sapphireBlue);
+}
+
+blockquote::after {
+    content: ' ';
+    position: absolute;
+    width: 0.5rem;
+    height: 100%;
+    left: -0.67rem;
+    bottom: -0.17rem;
+    z-index: -1;
+    background-color: var(--carolinaBlue);
+}
+
+blockquote p {
+    margin-inline-start: 0.5rem;
+    font-style: italic;
 }
