@@ -14,6 +14,7 @@
     7. Hand Emoji Waving
     8. Images
     9. Quotes
+    10. Icon Lists
 */
 
 /* 0. Reset */
@@ -516,4 +517,14 @@ blockquote::after {
 blockquote p {
     margin-inline-start: 0.5rem;
     font-style: italic;
+}
+
+/* 5.10 Icon Lists */
+.icon-list {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.icon-list li * {
+    vertical-align: middle;
 }

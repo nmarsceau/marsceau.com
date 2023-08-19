@@ -1,0 +1,16 @@
+---
+layout: layouts/simple.njk
+permalink: /tools/
+eleventyExcludeFromCollections: true
+title: Tools | Nick Marsceau
+---
+<h1>Tools</h1>
+
+<ul class="icon-list">
+    {%- for tool in tools -%}
+        <li>
+            <img src="/assets/images/icons/{{ tool.icon }}.webp" alt="">
+            <a href="{{ tool.url }}">{{ tool.name }}</a>
+        </li>
+    {%- endfor -%}
+</ul>
