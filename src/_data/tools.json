@@ -1,6 +1,47 @@
 [
-    { "name": "Base64 Decoder",      "url": "https://www.base64decode.org/", "icon": "base64_decode"    },
-    { "name": "Crontab Guru",        "url": "https://crontab.guru/",         "icon": "crontab_guru"     },
-    { "name": "JSON Formatter",      "url": "https://jsonformatter.com/",    "icon": "json_formatter"   },
-    { "name": "Regex 101",           "url": "https://regex101.com/",         "icon": "regex_101"        }
+    {
+        "name": "ASCII Table Generator",
+        "url": "https://ozh.github.io/ascii-tables/",
+        "icon": "ascii_table_generator"
+    },
+    {
+        "name": "Base64 Decoder",
+        "url": "https://www.base64decode.org",
+        "icon": "base64_decode"
+    },
+    {
+        "name": "Crontab Guru",
+        "url": "https://crontab.guru",
+        "icon": "crontab_guru"
+    },
+    {
+        "name": "Epoch Converter",
+        "url": "https://www.epochconverter.com",
+        "icon": "epoch_converter"
+    },
+    {
+        "name": "JSON Formatter",
+        "url": "https://jsonformatter.com",
+        "icon": "json_formatter"
+    },
+    {
+        "name": "PHP Sandbox",
+        "url": "https://onlinephp.io",
+        "icon": "online_php"
+    },
+    {
+        "name": "Regex 101",
+        "url": "https://regex101.com",
+        "icon": "regex_101"
+    },
+    {
+        "name": "SQL List Converter",
+        "url": "https://nmarsceau.github.io/sql-list-converter/",
+        "icon": "sql_list_converter"
+    },
+    {
+        "name": "Temporary Email",
+        "url": "https://mytemp.email",
+        "icon": "temporary_email"
+    }
 ]
