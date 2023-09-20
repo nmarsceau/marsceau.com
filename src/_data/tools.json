@@ -15,14 +15,64 @@
         "icon": "crontab_guru"
     },
     {
+        "name": "Date Calculator",
+        "url": "https://www.timeanddate.com/date/dateadd.html",
+        "icon": "time_and_date"
+    },
+    {
+        "name": "Diffchecker",
+        "url": "https://www.diffchecker.com/",
+        "icon": "diff_checker"
+    },
+    {
         "name": "Epoch Converter",
         "url": "https://www.epochconverter.com",
         "icon": "epoch_converter"
     },
     {
+        "name": "Frame It",
+        "url": "https://nmarsceau.github.io/frame-it/",
+        "icon": "none"
+    },
+    {
+        "name": "HTML Entity Codes",
+        "url": "https://www.toptal.com/designers/htmlarrows/",
+        "icon": "toptal"
+    },
+    {
+        "name": "JavaScript Operator Lookup",
+        "url": "https://www.joshwcomeau.com/operator-lookup/",
+        "icon": "josh_comeau"
+    },
+    {
         "name": "JSON Formatter",
         "url": "https://jsonformatter.com",
         "icon": "json_formatter"
+    },
+    {
+        "name": "Keycode.info",
+        "url": "https://www.toptal.com/developers/keycode",
+        "icon": "toptal"
+    },
+    {
+        "name": "Mastershot",
+        "url": "https://mastershot.app/",
+        "icon": "mastershot"
+    },
+    {
+        "name": "Mockflow",
+        "url": "https://mockflow.com/",
+        "icon": "mockflow"
+    },
+    {
+        "name": "Online Timer",
+        "url": "https://www.timeanddate.com/timer/",
+        "icon": "time_and_date"
+    },
+    {
+        "name": "Photopea",
+        "url": "https://www.photopea.com/",
+        "icon": "photopea"
     },
     {
         "name": "PHP Sandbox",
@@ -43,5 +93,20 @@
         "name": "Temporary Email",
         "url": "https://mytemp.email",
         "icon": "temporary_email"
+    },
+    {
+        "name": "TestTLS",
+        "url": "https://testtls.com/",
+        "icon": "test_tls"
+    },
+    {
+        "name": "W3C Markup Validator",
+        "url": "https://validator.w3.org/",
+        "icon": "w3"
+    },
+    {
+        "name": "Word Counter",
+        "url": "https://wordcounter.net/",
+        "icon": "word_counter"
     }
 ]
