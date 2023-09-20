@@ -25,6 +25,21 @@
         "icon": "diff_checker"
     },
     {
+        "name": "DKIM Record Checker",
+        "url": "https://dmarcian.com/dkim-inspector/",
+        "icon": "dmarcian"
+    },
+    {
+        "name": "DMARC Record Checker",
+        "url": "https://dmarcian.com/dmarc-inspector/",
+        "icon": "dmarcian"
+    },
+    {
+        "name": "DNS Lookup",
+        "url": "https://dnschecker.org/all-dns-records-of-domain.php",
+        "icon": "dns_lookup"
+    },
+    {
         "name": "Epoch Converter",
         "url": "https://www.epochconverter.com",
         "icon": "epoch_converter"
@@ -33,6 +48,21 @@
         "name": "Frame It",
         "url": "https://nmarsceau.github.io/frame-it/",
         "icon": "none"
+    },
+    {
+        "name": "Hosting Checker",
+        "url": "https://www.hostingchecker.net/",
+        "icon": "hosting_checker"
+    },
+    {
+        "name": "HTML DOM",
+        "url": "https://phuoc.ng/collection/html-dom/",
+        "icon": "html_dom"
+    },
+    {
+        "name": "HTML Head",
+        "url": "https://htmlhead.dev/",
+        "icon": "html_head"
     },
     {
         "name": "HTML Entity Codes",
@@ -65,6 +95,11 @@
         "icon": "mockflow"
     },
     {
+        "name": "MX Lookup",
+        "url": "https://mxtoolbox.com/",
+        "icon": "mx_toolbox"
+    },
+    {
         "name": "Online Timer",
         "url": "https://www.timeanddate.com/timer/",
         "icon": "time_and_date"
@@ -85,9 +120,24 @@
         "icon": "regex_101"
     },
     {
+        "name": "SPF Surveyor",
+        "url": "https://dmarcian.com/spf-survey/",
+        "icon": "dmarcian"
+    },
+    {
+        "name": "SQL DBM",
+        "url": "https://sqldbm.com/Home/",
+        "icon": "sql_dbm"
+    },
+    {
         "name": "SQL List Converter",
         "url": "https://nmarsceau.github.io/sql-list-converter/",
         "icon": "sql_list_converter"
+    },
+    {
+        "name": "Squoosh",
+        "url": "https://squoosh.app/",
+        "icon": "squoosh"
     },
     {
         "name": "Temporary Email",
@@ -98,6 +148,11 @@
         "name": "TestTLS",
         "url": "https://testtls.com/",
         "icon": "test_tls"
+    },
+    {
+        "name": "View Source",
+        "url": "https://neatnik.net/view-source/",
+        "icon": "view_source"
     },
     {
         "name": "W3C Markup Validator",
