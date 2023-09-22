@@ -50,6 +50,11 @@
         "icon": "none"
     },
     {
+        "name": "Frontend Checklist",
+        "url": "https://frontendchecklist.io/",
+        "icon": "frontend_checklist"
+    },
+    {
         "name": "Hosting Checker",
         "url": "https://www.hostingchecker.net/",
         "icon": "hosting_checker"
@@ -83,6 +88,11 @@
         "name": "Keycode.info",
         "url": "https://www.toptal.com/developers/keycode",
         "icon": "toptal"
+    },
+    {
+        "name": "Link To QR",
+        "url": "https://link-to-qr.com/",
+        "icon": "link_to_qr"
     },
     {
         "name": "Mastershot",
