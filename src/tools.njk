@@ -14,3 +14,14 @@ title: Tools | Nick Marsceau
         </li>
     {%- endfor -%}
 </ul>
+<h2>Submit a Tool</h2>
+<form name="tools" method="post" netlify>
+    <div>
+        <label for="url">
+            URL
+            <span class="required">required</span>
+            <input type="url" id="url" name="url" placeholder="https://example.com" required>
+        </label>
+    </div>
+    <button type="submit">Submit</button>
+</form>
