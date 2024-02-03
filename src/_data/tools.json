@@ -1,11 +1,19 @@
 [
     {
+        "name": "ASCII Character Table",
+        "url": "https://www.asciitable.com/"
+    },
+    {
         "name": "ASCII Table Generator",
         "url": "https://ozh.github.io/ascii-tables/"
     },
     {
         "name": "Base64 Decoder",
         "url": "https://www.base64decode.org"
+    },
+    {
+        "name": "Color Hexa",
+        "url": "https://colorhexa.com"
     },
     {
         "name": "Crontab Guru",
@@ -76,6 +84,14 @@
         "url": "https://link-to-qr.com/"
     },
     {
+        "name": "ListDiff",
+        "url": "http://www.listdiff.com/compare-2-lists-difference-tool"
+    },
+    {
+        "name": "Lorem Ipsum Generator",
+        "url": "https://loremipsum.io/generator/"
+    },
+    {
         "name": "Mastershot",
         "url": "https://mastershot.app/"
     },
@@ -136,7 +152,15 @@
         "url": "https://validator.w3.org/"
     },
     {
+        "name": "What Unicode Character Is This?",
+        "url": "https://babelstone.co.uk/Unicode/whatisit.html"
+    },
+    {
         "name": "Word Counter",
         "url": "https://wordcounter.net/"
+    },
+    {
+        "name": "XML Lint",
+        "url": "https://xmllint.com/"
     }
 ]
