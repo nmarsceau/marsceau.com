@@ -16,6 +16,15 @@
         "url": "https://colorhexa.com"
     },
     {
+        "name": "Content Security Policy Reference",
+        "url": "https://content-security-policy.com/"
+    },
+    },
+    {
+        "name": "Content Security Policy Validator",
+        "url": "https://cspvalidator.org/#url=https://cspvalidator.org/"
+    },
+    {
         "name": "Crontab Guru",
         "url": "https://crontab.guru"
     },
@@ -54,6 +63,10 @@
     {
         "name": "Hosting Checker",
         "url": "https://www.hostingchecker.net/"
+    },
+    {
+        "name": "HSTS Checker",
+        "url": "https://www.site24x7.com/tools/hsts.html"
     },
     {
         "name": "HTML DOM",
@@ -158,6 +171,10 @@
     {
         "name": "Word Counter",
         "url": "https://wordcounter.net/"
+    },
+    {
+        "name": "X-Frame-Options Checker",
+        "url": "https://www.site24x7.com/tools/x-frame-options.html"
     },
     {
         "name": "XML Lint",
