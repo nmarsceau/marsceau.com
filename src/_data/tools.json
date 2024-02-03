@@ -1,177 +1,142 @@
 [
     {
         "name": "ASCII Table Generator",
-        "url": "https://ozh.github.io/ascii-tables/",
-        "icon": "ascii_table_generator"
+        "url": "https://ozh.github.io/ascii-tables/"
     },
     {
         "name": "Base64 Decoder",
-        "url": "https://www.base64decode.org",
-        "icon": "base64_decode"
+        "url": "https://www.base64decode.org"
     },
     {
         "name": "Crontab Guru",
-        "url": "https://crontab.guru",
-        "icon": "crontab_guru"
+        "url": "https://crontab.guru"
     },
     {
         "name": "Date Calculator",
-        "url": "https://www.timeanddate.com/date/dateadd.html",
-        "icon": "time_and_date"
+        "url": "https://www.timeanddate.com/date/dateadd.html"
     },
     {
         "name": "Diffchecker",
-        "url": "https://www.diffchecker.com/",
-        "icon": "diff_checker"
+        "url": "https://www.diffchecker.com/"
     },
     {
         "name": "DKIM Record Checker",
-        "url": "https://dmarcian.com/dkim-inspector/",
-        "icon": "dmarcian"
+        "url": "https://dmarcian.com/dkim-inspector/"
     },
     {
         "name": "DMARC Record Checker",
-        "url": "https://dmarcian.com/dmarc-inspector/",
-        "icon": "dmarcian"
+        "url": "https://dmarcian.com/dmarc-inspector/"
     },
     {
         "name": "DNS Lookup",
-        "url": "https://dnschecker.org/all-dns-records-of-domain.php",
-        "icon": "dns_lookup"
+        "url": "https://dnschecker.org/all-dns-records-of-domain.php"
     },
     {
         "name": "Epoch Converter",
-        "url": "https://www.epochconverter.com",
-        "icon": "epoch_converter"
+        "url": "https://www.epochconverter.com"
     },
     {
         "name": "Frame It",
-        "url": "https://nmarsceau.github.io/frame-it/",
-        "icon": "none"
+        "url": "https://nmarsceau.github.io/frame-it/"
     },
     {
         "name": "Frontend Checklist",
-        "url": "https://frontendchecklist.io/",
-        "icon": "frontend_checklist"
+        "url": "https://frontendchecklist.io/"
     },
     {
         "name": "Hosting Checker",
-        "url": "https://www.hostingchecker.net/",
-        "icon": "hosting_checker"
+        "url": "https://www.hostingchecker.net/"
     },
     {
         "name": "HTML DOM",
-        "url": "https://phuoc.ng/collection/html-dom/",
-        "icon": "html_dom"
+        "url": "https://phuoc.ng/collection/html-dom/"
     },
     {
         "name": "HTML Head",
-        "url": "https://htmlhead.dev/",
-        "icon": "html_head"
+        "url": "https://htmlhead.dev/"
     },
     {
         "name": "HTML Entity Codes",
-        "url": "https://www.toptal.com/designers/htmlarrows/",
-        "icon": "toptal"
+        "url": "https://www.toptal.com/designers/htmlarrows/"
     },
     {
         "name": "JavaScript Operator Lookup",
-        "url": "https://www.joshwcomeau.com/operator-lookup/",
-        "icon": "josh_comeau"
+        "url": "https://www.joshwcomeau.com/operator-lookup/"
     },
     {
         "name": "JSON Formatter",
-        "url": "https://jsonformatter.com",
-        "icon": "json_formatter"
+        "url": "https://jsonformatter.com"
     },
     {
         "name": "Keycode.info",
-        "url": "https://www.toptal.com/developers/keycode",
-        "icon": "toptal"
+        "url": "https://www.toptal.com/developers/keycode"
     },
     {
         "name": "Link To QR",
-        "url": "https://link-to-qr.com/",
-        "icon": "link_to_qr"
+        "url": "https://link-to-qr.com/"
     },
     {
         "name": "Mastershot",
-        "url": "https://mastershot.app/",
-        "icon": "mastershot"
+        "url": "https://mastershot.app/"
     },
     {
         "name": "Mockflow",
-        "url": "https://mockflow.com/",
-        "icon": "mockflow"
+        "url": "https://mockflow.com/"
     },
     {
         "name": "MX Lookup",
-        "url": "https://mxtoolbox.com/",
-        "icon": "mx_toolbox"
+        "url": "https://mxtoolbox.com/"
     },
     {
         "name": "Online Timer",
-        "url": "https://www.timeanddate.com/timer/",
-        "icon": "time_and_date"
+        "url": "https://www.timeanddate.com/timer/"
     },
     {
         "name": "Photopea",
-        "url": "https://www.photopea.com/",
-        "icon": "photopea"
+        "url": "https://www.photopea.com/"
     },
     {
         "name": "PHP Sandbox",
-        "url": "https://onlinephp.io",
-        "icon": "online_php"
+        "url": "https://onlinephp.io"
     },
     {
         "name": "Regex 101",
-        "url": "https://regex101.com",
-        "icon": "regex_101"
+        "url": "https://regex101.com"
     },
     {
         "name": "SPF Surveyor",
-        "url": "https://dmarcian.com/spf-survey/",
-        "icon": "dmarcian"
+        "url": "https://dmarcian.com/spf-survey/"
     },
     {
         "name": "SQL DBM",
-        "url": "https://sqldbm.com/Home/",
-        "icon": "sql_dbm"
+        "url": "https://sqldbm.com/Home/"
     },
     {
         "name": "SQL List Converter",
-        "url": "https://nmarsceau.github.io/sql-list-converter/",
-        "icon": "sql_list_converter"
+        "url": "https://nmarsceau.github.io/sql-list-converter/"
     },
     {
         "name": "Squoosh",
-        "url": "https://squoosh.app/",
-        "icon": "squoosh"
+        "url": "https://squoosh.app/"
     },
     {
         "name": "Temporary Email",
-        "url": "https://mytemp.email",
-        "icon": "temporary_email"
+        "url": "https://mytemp.email"
     },
     {
         "name": "TestTLS",
-        "url": "https://testtls.com/",
-        "icon": "test_tls"
+        "url": "https://testtls.com/"
     },
     {
         "name": "View Source",
-        "url": "https://neatnik.net/view-source/",
-        "icon": "view_source"
+        "url": "https://neatnik.net/view-source/"
     },
     {
         "name": "W3C Markup Validator",
-        "url": "https://validator.w3.org/",
-        "icon": "w3"
+        "url": "https://validator.w3.org/"
     },
     {
         "name": "Word Counter",
-        "url": "https://wordcounter.net/",
-        "icon": "word_counter"
+        "url": "https://wordcounter.net/"
     }
 ]
