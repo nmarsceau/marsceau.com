@@ -1,6 +1,6 @@
 ---
 title: Progressively Enhancing a Netlify Form
-description: TODO
+description: This week I found an elegant solution to a problem of receiving duplicate form submissions on a website.
 date: 2024-03-21T11:00:00-05:00
 tags:
     - this-week-i-built
