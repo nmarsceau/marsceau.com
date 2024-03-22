@@ -16,7 +16,7 @@ Here's an example of this in use on GitHub:
 <picture class="content-image">
     <source srcset="/assets/images/details-tag-github.avif" type="image/avif">
     <source srcset="/assets/images/details-tag-github.webp" type="image/webp">
-    <img src="/assets/images/details-tag-github.jpg" alt="Screenshot of a GitHub comment containing two detail tags">
+    <img src="/assets/images/details-tag-github.jpg" alt="Screenshot of a GitHub comment containing two detail tags" loading="lazy">
 </picture>
 
 And the code behind it:

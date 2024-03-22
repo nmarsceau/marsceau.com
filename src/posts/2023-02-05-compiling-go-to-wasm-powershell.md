@@ -13,13 +13,13 @@ I've been learning Go lately, and I wanted to experiment with web assembly as we
 <picture class="content-image">
     <source srcset="/assets/images/compile-go-wasm-1.avif" type="image/avif">
     <source srcset="/assets/images/compile-go-wasm-1.webp" type="image/webp">
-    <img src="/assets/images/compile-go-wasm-1.jpg" alt="Screenshot of my sample web assembly web page. I entered the value 'Hello World'.">
+    <img src="/assets/images/compile-go-wasm-1.jpg" alt="Screenshot of my sample web assembly web page. I entered the value 'Hello World'." loading="lazy">
 </picture>
 
 <picture class="content-image">
     <source srcset="/assets/images/compile-go-wasm-2.avif" type="image/avif">
     <source srcset="/assets/images/compile-go-wasm-2.webp" type="image/webp">
-    <img src="/assets/images/compile-go-wasm-2.jpg" alt="Another screenshot of my sample web assembly web page. I clicked the button, and the browser alerted the JSON object it received from the web assembly function.">
+    <img src="/assets/images/compile-go-wasm-2.jpg" alt="Another screenshot of my sample web assembly web page. I clicked the button, and the browser alerted the JSON object it received from the web assembly function." loading="lazy">
 </picture>
 
 The command for compiling Go to web assembly without any tools like TinyGo is this:

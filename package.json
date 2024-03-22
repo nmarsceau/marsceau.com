@@ -1,6 +1,6 @@
 {
   "name": "nickmarso.com",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is the codebase for nickmarso.com.",
   "scripts": {
     "dev": "npx eleventy --serve",
@@ -12,18 +12,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "@11ty/eleventy-navigation": "^0.1.5",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "clean-css": "^4.2.1",
-    "eleventy-plugin-lazyimages": "^2.0.1",
     "eslint": "^7.10.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.1",
     "html-minifier": "^4.0.0",
     "luxon": "^1.25.0",
-    "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.2.7",
     "uglify-es": "^3.3.9"
   }
 }

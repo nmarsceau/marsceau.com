@@ -11,7 +11,7 @@ I was setting up PowerShell on a new computer a week or two ago, and I was remin
 <picture class="content-image">
     <source srcset="/assets/images/remove-powershell-version-number/1-displaying-version-number.avif" type="image/avif">
     <source srcset="/assets/images/remove-powershell-version-number/1-displaying-version-number.webp" type="image/webp">
-    <img src="/assets/images/remove-powershell-version-number/1-displaying-version-number.jpg" alt="A screenshot of a new PowerShell session with 'PowerShell 7.3.7' printed before the command prompt.">
+    <img src="/assets/images/remove-powershell-version-number/1-displaying-version-number.jpg" alt="A screenshot of a new PowerShell session with 'PowerShell 7.3.7' printed before the command prompt." loading="lazy">
 </picture>
 
 I turned that off a long time ago on my other computers, but since then I have completely forgotten how to make that change. I did not have much luck googling for the answer. It seemed like everything I searched just came back with results for how to get the PowerShell version number, not how to hide it on startup.
@@ -28,7 +28,7 @@ In Windows Terminal:
     <picture class="content-image">
         <source srcset="/assets/images/remove-powershell-version-number/2-settings-profiles-powershell.avif" type="image/avif">
         <source srcset="/assets/images/remove-powershell-version-number/2-settings-profiles-powershell.webp" type="image/webp">
-        <img src="/assets/images/remove-powershell-version-number/2-settings-profiles-powershell.jpg" alt="A screenshot of the PowerShell settings window. In the left-hand menu, there is a section labeled 'Profiles', and the 'PowerShell' profile is highlighted.">
+        <img src="/assets/images/remove-powershell-version-number/2-settings-profiles-powershell.jpg" alt="A screenshot of the PowerShell settings window. In the left-hand menu, there is a section labeled 'Profiles', and the 'PowerShell' profile is highlighted." loading="lazy">
     </picture>
 
 2. Expand the **Command line** section, and edit the command to add the <code class="language-">-NoLogo</code> option at the end. If any portion of your command is in quotes, add this option outside the quotes.
@@ -36,7 +36,7 @@ In Windows Terminal:
     <picture class="content-image">
         <source srcset="/assets/images/remove-powershell-version-number/3-add-nologo-option.avif" type="image/avif">
         <source srcset="/assets/images/remove-powershell-version-number/3-add-nologo-option.webp" type="image/webp">
-        <img src="/assets/images/remove-powershell-version-number/3-add-nologo-option.jpg" alt="A screenshot of the settings for the 'PowerShell' profile with the 'Command line' section expanded. The text '-NoLogo' has been added to the command for launching PowerShell.">
+        <img src="/assets/images/remove-powershell-version-number/3-add-nologo-option.jpg" alt="A screenshot of the settings for the 'PowerShell' profile with the 'Command line' section expanded. The text '-NoLogo' has been added to the command for launching PowerShell." loading="lazy">
     </picture>
 
 3. Save your change and open a new PowerShell session to make sure the version number, or "Logo", is no longer printed on startup.
@@ -44,7 +44,7 @@ In Windows Terminal:
     <picture class="content-image">
         <source srcset="/assets/images/remove-powershell-version-number/4-no-version-number.avif" type="image/avif">
         <source srcset="/assets/images/remove-powershell-version-number/4-no-version-number.webp" type="image/webp">
-        <img src="/assets/images/remove-powershell-version-number/4-no-version-number.jpg" alt="A screenshot of a new PowerShell session with nothing printed before the command prompt.">
+        <img src="/assets/images/remove-powershell-version-number/4-no-version-number.jpg" alt="A screenshot of a new PowerShell session with nothing printed before the command prompt." loading="lazy">
     </picture>
 
 Note: This may also suppress update notifications when PowerShell starts up if a new version is available. However, if your PowerShell is connected to Windows Update, that may not be an issue.

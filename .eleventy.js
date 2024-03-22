@@ -1,13 +1,9 @@
-const luxon = require('luxon');
 const cleanCss = require('clean-css');
 const uglifyEs = require('uglify-es');
 const htmlMin = require('html-minifier');
 const slugify = require('slugify');
 const eleventyNavigation = require('@11ty/eleventy-navigation');
-const eleventyLazyImages = require('eleventy-plugin-lazyimages');
 const eleventySyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-let markdownIt = require('markdown-it');
-let markdownItAnchor = require('markdown-it-anchor');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setDataDeepMerge(true);
@@ -17,9 +13,6 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPlugin(eleventySyntaxHighlight);
     eleventyConfig.addPlugin(eleventyNavigation);
-    eleventyConfig.addPlugin(eleventyLazyImages, {
-        transformImgPath: (imgPath) => imgPath.startsWith('http://') || imgPath.startsWith('https://') ? imgPath : `./src/${imgPath}`
-    });
 
     eleventyConfig.addTransform('minifyHtml', (code, outputPath) => {
         if (outputPath.endsWith('.html')) {
@@ -51,15 +44,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('removeIndexHtml', url => url.replace(/index.html$/, ''));
     eleventyConfig.addFilter('limit', (list, limit) => list.slice(0, limit));
     eleventyConfig.addFilter('filterOut', (list, remove) => list.filter(item => !remove.includes(item)));
-
-    const md = markdownIt({
-        html: true,
-        breaks: true,
-        linkify: true
-    })
-        .use(markdownItAnchor, {permalink: false});
-    eleventyConfig.setLibrary('md', md);
-    eleventyConfig.addFilter('markdownify', markdownString => md.render(markdownString));
 
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
