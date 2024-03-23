@@ -1,21 +1,22 @@
 /* Table of Contents
-  0. Reset
-  1. Variables
-  2. Helpers
-  3. Layout
-  4. Theme
-  5. Components
-    1. Skip to Main Content
-    2. Brand
-    3. Copyright
-    4. Post Cards
-    5. Posts
-    6. Code Blocks
-    7. Hand Emoji Waving
-    8. Images
-    9. Quotes
-    10. Icon Lists
-    11. Forms
+	0. Reset
+	1. Variables
+	2. Helpers
+	3. Layout
+	4. Theme
+	5. Components
+		1. Skip to Main Content
+		2. Brand
+		3. Copyright
+		4. Post Cards
+		5. Posts
+		6. Code Blocks
+		7. Hand Emoji Waving
+		8. Images
+		9. Quotes
+		10. Icon Lists
+		11. Forms
+		12. Blog Pagination
 */
 
 /* 0. Reset */
@@ -375,12 +376,6 @@ body > footer {
     margin-block-start: 1.5rem;
 }
 
-@media screen and (min-width: 500px) {
-    .postCard {
-        max-width: 500px;
-    }
-}
-
 .postCard h2 {
     line-height: 1;
     margin-block: 0;
@@ -587,4 +582,11 @@ button {
 
 button:hover, button:focus {
     background: var(--carolinaBlue);
+}
+
+/* 5.12 Blog Pagination */
+.blogPagination {
+	display: flex;
+	justify-content: space-between;
+	margin-block-start: 5em;
 }

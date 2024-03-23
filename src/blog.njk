@@ -1,6 +1,6 @@
 ---
 layout: layouts/simple.njk
-permalink: /blog/
+permalink: "/blog{% if pagination.pageNumber > 0 %}/{{ [ pagination.pageNumber, 1] | sum }}{% endif %}/index.html"
 eleventyExcludeFromCollections: true
 title: Blog | Nick Marsceau
 pagination:
@@ -14,10 +14,15 @@ pagination:
 {% set postList = posts %}
 {% include "layouts/components/postList.njk" %}
 
-{% if pagination.previous %}
-    <a href="{{ pagination.previous | removeIndexHtml }}">Newer Posts</a>
-{% endif %}
-
-{% if pagination.next %}
-    <a href="{{ pagination.next | removeIndexHtml }}">Older Posts</a>
-{% endif %}
+<nav class="blogPagination">
+	<div>
+		{% if pagination.href.previous %}
+			<a href="{{ pagination.href.previous | removeIndexHtml }}">← Newer Posts</a>
+		{% endif %}
+	</div>
+	<div>
+		{% if pagination.href.next %}
+			<a href="{{ pagination.href.next | removeIndexHtml }}">Older Posts →</a>
+		{% endif %}
+	</div>
+</nav>
