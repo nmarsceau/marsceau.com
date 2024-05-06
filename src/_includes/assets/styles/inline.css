@@ -17,6 +17,7 @@
 		10. Icon Lists
 		11. Forms
 		12. Blog Pagination
+		13. Experiments
 */
 
 /* 0. Reset */
@@ -222,6 +223,15 @@ a:hover, a:focus {
 
 .no-wrap {
     white-space: nowrap;
+}
+
+.code {
+	font-family: monospace;
+	color: var(--sapphireBlue);
+	border: 1px solid var(--sapphireBlue);
+	border-radius: 0.25em;
+	padding: 0 0.25em 0.1em;
+	line-height: 1;
 }
 
 /* 3. Layout */
@@ -589,4 +599,25 @@ button:hover, button:focus {
 	display: flex;
 	justify-content: space-between;
 	margin-block-start: 5em;
+}
+
+/* 5.13 Experiments */
+.experiment {
+	border: 8px dashed var(--darkGray);
+	border-radius: 30px;
+	padding: 2rem;
+	margin-block: 3rem;
+	position: relative;
+}
+
+.experiment::before {
+	content: "Experiment";
+	position: absolute;
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: var(--darkGray);
+	top: -2.2rem;
+	left: 2.1rem;
+	background-color: var(--lightGray);
+	padding-inline: 0.5rem;
 }
