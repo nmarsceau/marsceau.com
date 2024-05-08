@@ -4,6 +4,7 @@ const htmlMin = require('html-minifier');
 const slugify = require('slugify');
 const eleventyNavigation = require('@11ty/eleventy-navigation');
 const eleventySyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setDataDeepMerge(true);
@@ -11,8 +12,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({'src/_includes/assets': '/assets'});
     eleventyConfig.addPassthroughCopy({'src/_includes/assets/images/favicon': '/'});
 
-    eleventyConfig.addPlugin(eleventySyntaxHighlight);
     eleventyConfig.addPlugin(eleventyNavigation);
+    eleventyConfig.addPlugin(eleventySyntaxHighlight);
+    eleventyConfig.addPlugin(pluginRss);
 
     eleventyConfig.addTransform('minifyHtml', (code, outputPath) => {
         if (outputPath.endsWith('.html')) {
