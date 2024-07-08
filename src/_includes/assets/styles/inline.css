@@ -18,6 +18,7 @@
 		11. Forms
 		12. Blog Pagination
 		13. Experiments
+		14. Postroll
 */
 
 /* 0. Reset */
@@ -620,4 +621,20 @@ button:hover, button:focus {
 	left: 2.1rem;
 	background-color: var(--lightGray);
 	padding-inline: 0.5rem;
+}
+
+/* 5.14 Postroll */
+.postroll {
+	list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.postroll cite {
+	font-size: 1.2rem;
+	display: block;
+}
+
+.postroll .author, .postroll .readOn {
+	font-size: 0.8rem;
+	display: block;
 }

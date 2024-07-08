@@ -1,0 +1,19 @@
+---
+layout: layouts/simple.njk
+permalink: "/postroll"
+title: Postroll | Nick Marsceau
+---
+<h1>Postroll</h1>
+<p><a href="https://slashpages.net/#postroll"><small>What is a postroll?</small></a>
+<ul class="postroll">
+    {%- for post in postroll | reverse -%}
+        <li>
+            <cite><a href="{{ post.url }}">{{ post.name }}</a></cite>
+			<span class="author">By: {{ post.author }}</span>
+			<span class="readOn">
+				Read on: <time datetime="{{ post.readOn }}">{{ post.readOn | toLocaleDateString }}</time>
+			</span>
+			</p>
+        </li>
+    {%- endfor -%}
+</ul>

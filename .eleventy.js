@@ -46,6 +46,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('removeIndexHtml', url => url.replace(/index.html$/, ''));
     eleventyConfig.addFilter('limit', (list, limit) => list.slice(0, limit));
     eleventyConfig.addFilter('filterOut', (list, remove) => list.filter(item => !remove.includes(item)));
+	eleventyConfig.addFilter('toLocaleDateString', (date) => (new Date(date)).toLocaleDateString());
 
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
