@@ -1,5 +1,23 @@
 [
 	{
+		"url": "https://tonsky.me/blog/unicode/",
+		"name": "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)",
+		"author": "Niki",
+		"readOn": "2023-12-13T00:00:00"
+	},
+	{
+		"url": "https://www.rollingstone.com/culture/culture-commentary/internet-future-about-to-get-weird-1234938403/",
+		"name": "The Internet Is About to Get Weird Again",
+		"author": "Anil Dash",
+		"readOn": "2024-01-10T00:00:00"
+	},
+	{
+		"url": "https://geoffgraham.me/hey-will-you-build-me-a-website/",
+		"name": "Hey, will you build me a website?",
+		"author": "Geoff Graham",
+		"readOn": "2024-02-17T00:00:00"
+	},
+	{
 		"url": "https://cruncher.ch/blog/printing-music-with-css-grid/",
 		"name": "Printing music with CSS Grid",
 		"author": "Stephen Band",
