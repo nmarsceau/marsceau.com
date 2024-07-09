@@ -18,6 +18,18 @@
 		"readOn": "2024-02-17T00:00:00"
 	},
 	{
+		"url": "https://ericwbailey.website/published/thoughts-on-embedding-alternative-text-metadata-into-images/",
+		"name": "Thoughts on embedding alternative text metadata into images",
+		"author": "Eric Bailey",
+		"readOn": "2024-03-16T00:00:00"
+	},
+	{
+		"url": "https://www.takahe.org.nz/heat-death-of-the-internet/",
+		"name": "Heat Death of the Internet",
+		"author": "Gregory Bennett",
+		"readOn": "2024-04-05T00:00:00"
+	},
+	{
 		"url": "https://cruncher.ch/blog/printing-music-with-css-grid/",
 		"name": "Printing music with CSS Grid",
 		"author": "Stephen Band",
