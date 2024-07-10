@@ -36,7 +36,9 @@ $env:GOOS = 'js'; $env:GOARCH = 'wasm'; go build -o "./path/to/output/file.wasm"
 
 For convenience, I wrote a PowerShell function to encapsulate that command:
 
-<script src="https://gist.github.com/nmarsceau/8643d9dbafbf8f30b74e5adcd3c7d665.js"></script>
+<div class="gistWrapper">
+	<script src="https://gist.github.com/nmarsceau/8643d9dbafbf8f30b74e5adcd3c7d665.js"></script>
+</div>
 
 This function sets the environment variables and compiles the code in a child process or "subshell" so the variables don't overwrite any that may already be set in the current shell. <a href="https://lazyadmin.nl/powershell/powershell-profile/">Place this function in your PowerShell profile</a> to use it.
 

@@ -440,6 +440,11 @@ pre[class*="language-"].codeWrapper {
     }
 }
 
+.gistWrapper {
+	max-width: calc(100vw - 2rem);
+	overflow-x: auto;
+}
+
 /* 5.7 Hand Emoji Waving */
 @media screen and (prefers-reduced-motion: no-preference) {
     .hand-waving {
