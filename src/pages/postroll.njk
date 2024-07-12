@@ -11,7 +11,12 @@ title: Postroll | Nick Marsceau
             <cite><a href="{{ post.url }}">{{ post.name }}</a></cite>
 			<span class="author">By: {{ post.author }}</span>
 			<span class="readOn">
-				Read on: <time datetime="{{ post.readOn }}">{{ post.readOn | toLocaleDateString }}</time>
+				Read on:&nbsp;
+				{%- if post.readOn == 'Unknown' -%}
+					Unknown
+				{%- else -%}
+					<time datetime="{{ post.readOn }}">{{ post.readOn | toLocaleDateString }}</time>
+				{%- endif -%}
 			</span>
 			</p>
         </li>
