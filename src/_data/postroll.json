@@ -82,5 +82,11 @@
 		"name": "It's really this thing that gets me.",
 		"author": "Chris Coyier",
 		"readOn": "2024-07-14T00:00:00"
+	},
+	{
+		"url": "https://wouterj.nl/2024/08/git-notes",
+		"name": "Store Code Discussions in Git using Git Notes",
+		"author": "Wouter de Jong",
+		"readOn": "2024-08-08T00:00:00"
 	}
 ]
