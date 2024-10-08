@@ -100,5 +100,17 @@
 		"name": "Why Have a Personal Site Instead of Social Media?",
 		"author": "Kev Quirk",
 		"readOn": "2024-10-05T00:00:00"
-	}
+	},
+ {
+  "url": "https://aworkinglibrary.com/writing/laborsaving",
+  "name": "Laborsaving",
+  "author": "Mandy Brown",
+  "readOn": "2024-10-08T00:00:00"
+ },
+ {
+  "url": "https://tonsky.me/blog/crdt-filesync/",
+  "name": "Local, first, forever",
+  "author": "Niki",
+  "readOn": "2024-10-08T00:00:00"
+ }
 ]
