@@ -124,5 +124,11 @@
   "name": "Handling Cookies is a Minefield",
   "author": "April King",
   "readOn": "2024-11-21T00:00:00"
+ },
+ {
+  "url": "https://abenezer.org/blog/hyrum-law-in-golang",
+  "name": "Hyrum's Law in Golang",
+  "author": "Abenezer Belachew",
+  "readOn": "2024-11-23T00:00:00"
  }
 ]
