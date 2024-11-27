@@ -23,6 +23,18 @@
 		"author": "Bite Code",
 		"readOn": "Unknown"
 	},
+ {
+  "url": "https://blakewatson.com/journal/magnoliajs-2023-the-joys-of-home-cooked-apps/",
+  "name": "The joys of home-cooked apps",
+  "author": "Blake Watson",
+  "readOn": "2023-10-20T00:00:00"
+ },
+ {
+  "url": "https://www.tommyp.org/blog/rss-was-a-glimpse-of-a-future",
+  "name": "RSS was a glimpse of a future",
+  "author": "Tommy Palmer",
+  "readOn": "2023-11-21T00:00:00"
+ },
 	{
 		"url": "https://tonsky.me/blog/unicode/",
 		"name": "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)",
