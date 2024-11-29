@@ -1,5 +1,269 @@
 [
 	{
+		"url": "https://www.kalzumeus.com/2017/09/09/identity-theft-credit-reports/",
+		"name": "Identity Theft, Credit Reports, and You",
+		"author": "Patrick McKenzie",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://milan.cvitkovic.net/writing/things_youre_allowed_to_do/",
+		"name": "Things you're allowed to do",
+		"author": "Milan Cvitkovic",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://rachelbythebay.com/w/2021/01/17/woe/",
+		"name": "HR is not your friend, and other things I think you should know",
+		"author": "rachelbythebay",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://critter.blog/2021/01/20/90-of-everything-is-crap/",
+		"name": "90% of everything is crap",
+		"author": "Mike Crittenden",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://sequoia.makes.software/parsing-json-at-the-cli-a-practical-introduction-to-jq-and-more/",
+		"name": "Parsing JSON at the CLI: A Practical Introduction to `jq` (and more!)",
+		"author": "Sequoia McDowell",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.freecodecamp.org/news/how-to-go-from-junior-developer-to-mid-level-developer/",
+		"name": "How to Go from Junior Developer to Mid-level Developer",
+		"author": "Sam Williams",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://unito.io/blog/micromanagement-signs/",
+		"name": "End Micromanagement: 6 Signs of Micromanagement (and What To Do Instead)",
+		"author": "Dara Fontein",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://psyche.co/ideas/talking-out-loud-to-yourself-is-a-technology-for-thinking",
+		"name": "Talking out loud to yourself is a technology for thinking",
+		"author": "Nana Ariel",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://amberwilson.co.uk/blog/are-your-anchor-links-accessible/",
+		"name": "Are your Anchor Links Accessible?",
+		"author": "Amber Wilson",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://markus.oberlehner.net/blog/progressive-enhancement-and-the-modern-web/",
+		"name": "Progressive Enhancement and the Modern Web",
+		"author": "Markus Oberlehner",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.improveyoursocialskills.com/",
+		"name": "You Can Improve Your Social Skills",
+		"author": "Dr. Daniel Wendler",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.zainrizvi.io/blog/the-interviewing-advice-no-one-shares/",
+		"name": "Interview advice that got me offers from Google, Microsoft, and Stripe",
+		"author": "Zain Rizvi",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://responsibleweb.app/",
+		"name": "Responsible Web Applications",
+		"author": "Joy Heron",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://12factor.net/",
+		"name": "The Twelve-Factor App",
+		"author": "Adam Wiggins",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://carter.sande.duodecima.technology/decentralized-wishlist/",
+		"name": "My personal wishlist for a decentralized social network",
+		"author": "Carter Sande",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.lesswrong.com/posts/KuFSkLwhSkEZJYALE/collating-widely-available-time-money-trades",
+		"name": "Collating widely available time/money trades",
+		"author": "RyanCarey",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://blog.feenk.com/developers-spend-most-of-their-time-figuri-7aj1ocjhe765vvlln8qqbuhto/",
+		"name": "Developers spend most of their time figuring the system out",
+		"author": "Tudor Girba",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://njms.ca/posts/ethical-anti-design.html",
+		"name": "Ethical anti-design, or designing products that people can't get addicted to.",
+		"author": "njms",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://blog.dropbox.com/topics/work-culture/economist-intelligence-unit-distributed-work-study",
+		"name": "Study: Focus will shape the future of distributed work",
+		"author": "Paul Boutin",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://meteuphoric.com/2014/03/25/how-to-trade-money-and-time/",
+		"name": "How to trade money and time",
+		"author": "Katja Grace",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.willpatrick.co.uk//articles/how-to-buy-gifts-that-people-actually-want",
+		"name": "How to Buy Gifts That People Actually Want",
+		"author": "Will Patrick",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://index.medium.com/career-advice-nobody-gave-me-never-ignore-a-recruiter-4474eac9556",
+		"name": "Career Advice Nobody Gave Me: Never Ignore a Recruiter",
+		"author": "Alex Chesser",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.pietrorea.com/2022/01/28/reclaiming-the-lost-art-of-linux-server-administration",
+		"name": "Reclaiming the lost art of Linux server administration",
+		"author": "Pietro Rea",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://bitfieldconsulting.com/golang/career",
+		"name": "A career ending mistake",
+		"author": "John Arundel",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://daveceddia.com/interview-questions-to-ask-company/",
+		"name": "Interview Questions to Ask Your Interviewer",
+		"author": "Dave Ceddia",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.raptitude.com/2016/12/five-things-you-notice-when-you-quit-the-news/",
+		"name": "Five Things You Notice When You Quit the News",
+		"author": "David Cain",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://interactionmagic.com/Design-for-repair",
+		"name": "The last design you'll ever make",
+		"author": "George Cave",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://the.scapegoat.dev/autistic-people-cant-acknowledge-when-they-are-wrong/",
+		"name": "Autistic people can't acknowledge when they are wrong",
+		"author": "Manuel Odendahl",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://news.ycombinator.com/item?id=32367162",
+		"name": "Ask HN: How to Handle Help Vampires?",
+		"author": "nicbou on Hacker News",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://amir.rachum.com/blog/2022/08/07/starter-project/",
+		"name": "How to pick a starter project that'll make someone quit",
+		"author": "Amir Rachum",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.mtajchert.com/libraries-and-open-spaces/",
+		"name": "Libraries - how companies do not understand open spaces",
+		"author": "Michał Tajchert",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://tomlingham.com/articles/why-are-you-so-busy/",
+		"name": "Why are you so busy?",
+		"author": "Tom Lingham",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/",
+		"name": "Don't Call Yourself A Programmer, And Other Career Advice",
+		"author": "Patrick McKenzie",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://zedshaw.com/blog/2022-02-05-the-beggar-barons/",
+		"name": "The Beggar Barons",
+		"author": "Zed A. Shaw",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://mannhowie.com/ikea-effect",
+		"name": "The IKEA Effect - Why people fall in love with their own ideas",
+		"author": "Howie Mann",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://kellysutton.com/2016/06/23/boiling-the-ocean-with-markup.html",
+		"name": "Boiling the Ocean with Markup",
+		"author": "Kelly Sutton",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://blog.chriszacharias.com/page-weight-matters",
+		"name": "Page Weight Matters",
+		"author": "Chris Zacharias",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
+		"name": "Reality has a surprising amount of detail",
+		"author": "John Salvatier",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://josem.co/the-beauty-of-finished-software/",
+		"name": "The Beauty of Finished Software",
+		"author": "Jose M. Gilgado",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://metarationality.com/post-apocalyptic-health-care",
+		"name": "Post-apocalyptic life in American health care",
+		"author": "David Chapman",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://birtles.blog/2024/01/06/weird-things-engineers-believe-about-development/",
+		"name": "Weird things engineers believe about Web development",
+		"author": "Brian Birtles",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://daverupert.com/2023/05/soviet-rtgs/",
+		"name": "Lessons from Soviet Russia on deploying small nuclear generators",
+		"author": "Dave Rupert",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://daverupert.com/2023/02/feature-work-maintenance-work-loop/",
+		"name": "The Feature Work → Maintenance Work Loop",
+		"author": "Dave Rupert",
+		"readOn": "Unknown"
+	},
+	{
+		"url": "https://daverupert.com/2023/01/lessons-from-my-gunpla-tools/",
+		"name": "Lessons from my Gunpla Tools",
+		"author": "Dave Rupert",
+		"readOn": "Unknown"
+	},
+	{
 		"url": "https://www.susanpotter.net/software/work-from-home-work-and-home-separation-tips/",
 		"name": "Work-from-Home Work and Home Separation Tips",
 		"author": "Susan Potter",
@@ -24,6 +288,12 @@
 		"readOn": "Unknown"
 	},
 	{
+		"url": "https://clig.dev/",
+		"name": "Command Line Interface Guidelines",
+		"author": "Aanand Prasad, Ben Firshman, Carl Tashian, and Eva Parish",
+		"readOn": "2020-12-12T00:00:00"
+	},
+	{
 		"url": "https://blakewatson.com/journal/magnoliajs-2023-the-joys-of-home-cooked-apps/",
 		"name": "The joys of home-cooked apps",
 		"author": "Blake Watson",
@@ -42,10 +312,28 @@
 		"readOn": "2023-12-13T00:00:00"
 	},
 	{
+		"url": "https://daverupert.com/2024/01/twenty-twenty-three/",
+		"name": "2023",
+		"author": "Dave Rupert",
+		"readOn": "2024-01-04T00:00:00"
+	},
+	{
+		"url": "https://robinrendle.com/notes/resolutions-are-dumb/",
+		"name": "Resolutions are dumb",
+		"author": "Robin Rendle",
+		"readOn": "2024-01-04T00:00:00"
+	},
+	{
 		"url": "https://www.rollingstone.com/culture/culture-commentary/internet-future-about-to-get-weird-1234938403/",
 		"name": "The Internet Is About to Get Weird Again",
 		"author": "Anil Dash",
 		"readOn": "2024-01-10T00:00:00"
+	},
+	{
+		"url": "https://spectrum.ieee.org/lean-software-development",
+		"name": "Why Bloat Is Still Software's Biggest Vulnerability",
+		"author": "Bert Hubert",
+		"readOn": "2024-02-10T00:00:00"
 	},
 	{
 		"url": "https://geoffgraham.me/hey-will-you-build-me-a-website/",
