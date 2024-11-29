@@ -23,18 +23,18 @@
 		"author": "Bite Code",
 		"readOn": "Unknown"
 	},
- {
-  "url": "https://blakewatson.com/journal/magnoliajs-2023-the-joys-of-home-cooked-apps/",
-  "name": "The joys of home-cooked apps",
-  "author": "Blake Watson",
-  "readOn": "2023-10-20T00:00:00"
- },
- {
-  "url": "https://www.tommyp.org/blog/rss-was-a-glimpse-of-a-future",
-  "name": "RSS was a glimpse of a future",
-  "author": "Tommy Palmer",
-  "readOn": "2023-11-21T00:00:00"
- },
+	{
+		"url": "https://blakewatson.com/journal/magnoliajs-2023-the-joys-of-home-cooked-apps/",
+		"name": "The joys of home-cooked apps",
+		"author": "Blake Watson",
+		"readOn": "2023-10-20T00:00:00"
+	},
+	{
+		"url": "https://www.tommyp.org/blog/rss-was-a-glimpse-of-a-future",
+		"name": "RSS was a glimpse of a future",
+		"author": "Tommy Palmer",
+		"readOn": "2023-11-21T00:00:00"
+	},
 	{
 		"url": "https://tonsky.me/blog/unicode/",
 		"name": "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)",
@@ -71,12 +71,12 @@
 		"author": "Stephen Band",
 		"readOn": "2024-04-26T00:00:00"
 	},
-    {
-        "url": "https://pcalv.es/offboarding/",
-        "name": "Offboarding",
+	{
+		"url": "https://pcalv.es/offboarding/",
+		"name": "Offboarding",
 		"author": "pcalves",
 		"readOn": "2024-07-04T00:00:00"
-    },
+	},
 	{
 		"url": "https://daught.me/blog/2024/indie-web/",
 		"name": "The \"IndieWeb\" feels like coming home",
@@ -101,64 +101,64 @@
 		"author": "Wouter de Jong",
 		"readOn": "2024-08-08T00:00:00"
 	},
- {
+	{
 		"url": "https://kerkour.com/sqlite-for-servers",
 		"name": "Optimizing SQLite for servers",
 		"author": "Sylvain Kerkour",
 		"readOn": "2024-09-28T00:00:00"
 	},
- {
+	{
 		"url": "https://kevquirk.com/blog/why-have-a-personal-site-instead-of-social-media",
 		"name": "Why Have a Personal Site Instead of Social Media?",
 		"author": "Kev Quirk",
 		"readOn": "2024-10-05T00:00:00"
 	},
- {
-  "url": "https://aworkinglibrary.com/writing/laborsaving",
-  "name": "Laborsaving",
-  "author": "Mandy Brown",
-  "readOn": "2024-10-08T00:00:00"
- },
- {
-  "url": "https://tonsky.me/blog/crdt-filesync/",
-  "name": "Local, first, forever",
-  "author": "Niki",
-  "readOn": "2024-10-08T00:00:00"
- },
- {
-  "url": "https://expressionstatement.com/html-form-validation-is-heavily-underused",
-  "name": "HTML Form Validation is heavily underused",
-  "author": "everdimension",
-  "readOn": "2024-10-30T00:00:00"
- },
- {
-  "url": "https://grayduck.mn/2024/11/21/handling-cookies-is-a-minefield/",
-  "name": "Handling Cookies is a Minefield",
-  "author": "April King",
-  "readOn": "2024-11-21T00:00:00"
- },
- {
-  "url": "https://abenezer.org/blog/hyrum-law-in-golang",
-  "name": "Hyrum's Law in Golang",
-  "author": "Abenezer Belachew",
-  "readOn": "2024-11-23T00:00:00"
- },
- {
-  "url": "https://textslashplain.com/2016/04/04/downloads-and-the-mark-of-the-web/",
-  "name": "Downloads and the Mark-of-the-Web",
-  "author": "ericlaw",
-  "readOn": "2024-11-23T00:00:00"
- },
- {
-  "url": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
-  "name": "Dear friend, you have built a Kubernetes",
-  "author": "Mac Chaffee",
-  "readOn": "2024-11-24T00:00:00"
- },
- {
-  "url": "https://files.spritely.institute/papers/petnames.html",
-  "name": "Petnames: A humane approach to secure, decentralized naming",
-  "author": "Christine Lemmer-Webber, Mark S. Miller, Zachary Larson, Kate Sills, and Eli Yaacoby",
-  "readOn": "2024-11-27T00:00:00"
- }
+	{
+		"url": "https://aworkinglibrary.com/writing/laborsaving",
+		"name": "Laborsaving",
+		"author": "Mandy Brown",
+		"readOn": "2024-10-08T00:00:00"
+	},
+	{
+		"url": "https://tonsky.me/blog/crdt-filesync/",
+		"name": "Local, first, forever",
+		"author": "Niki",
+		"readOn": "2024-10-08T00:00:00"
+	},
+	{
+		"url": "https://expressionstatement.com/html-form-validation-is-heavily-underused",
+		"name": "HTML Form Validation is heavily underused",
+		"author": "everdimension",
+		"readOn": "2024-10-30T00:00:00"
+	},
+	{
+		"url": "https://grayduck.mn/2024/11/21/handling-cookies-is-a-minefield/",
+		"name": "Handling Cookies is a Minefield",
+		"author": "April King",
+		"readOn": "2024-11-21T00:00:00"
+	},
+	{
+		"url": "https://abenezer.org/blog/hyrum-law-in-golang",
+		"name": "Hyrum's Law in Golang",
+		"author": "Abenezer Belachew",
+		"readOn": "2024-11-23T00:00:00"
+	},
+	{
+		"url": "https://textslashplain.com/2016/04/04/downloads-and-the-mark-of-the-web/",
+		"name": "Downloads and the Mark-of-the-Web",
+		"author": "ericlaw",
+		"readOn": "2024-11-23T00:00:00"
+	},
+	{
+		"url": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
+		"name": "Dear friend, you have built a Kubernetes",
+		"author": "Mac Chaffee",
+		"readOn": "2024-11-24T00:00:00"
+	},
+	{
+		"url": "https://files.spritely.institute/papers/petnames.html",
+		"name": "Petnames: A humane approach to secure, decentralized naming",
+		"author": "Christine Lemmer-Webber, Mark S. Miller, Zachary Larson, Kate Sills, and Eli Yaacoby",
+		"readOn": "2024-11-27T00:00:00"
+	}
 ]
