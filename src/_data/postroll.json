@@ -496,5 +496,11 @@
 		"name": "The future of electricity is local",
 		"author": "Casey Handmer",
 		"readOn": "2024-12-13T00:00:00"
+ },
+ {
+		"url": "https://lighthouseapp.io/blog/deep-dive-finding-rss-feeds",
+		"name": "Deep dive into finding RSS feeds",
+		"author": "Dominik Weber",
+		"readOn": "2024-12-14T00:00:00"
 	}
 ]
