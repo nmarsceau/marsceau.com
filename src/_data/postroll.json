@@ -294,6 +294,36 @@
 		"readOn": "2020-12-12T00:00:00"
 	},
 	{
+		"url": "https://klog.jotaen.net/",
+		"name": "klog - time tracking in plain-text files",
+		"author": "Jan Heuermann",
+		"readOn": "2021-02-03T00:00:00"
+	},
+	{
+		"url": "https://k3tan.com/starting-a-new-digital-identity",
+		"name": "Starting a new digital identity",
+		"author": "k3tan",
+		"readOn": "2021-04-07T00:00:00"
+	},
+	{
+		"url": "https://xit.jotaen.net/",
+		"name": "[x]it! - A plain-text file format for todos and check lists",
+		"author": "Jan Heuermann",
+		"readOn": "2022-04-01T00:00:00"
+	},
+	{
+		"url": "https://blog.mnavarro.dev/a-crud-reality",
+		"name": "A CRUD Reality",
+		"author": "Matías Navarro-Carter",
+		"readOn": "2023-08-06T00:00:00"
+	},
+	{
+		"url": "https://akrabat.com/use-exiftool-to-remove-private-data-in-images/",
+		"name": "Use ExifTool to remove private data in images",
+		"author": "Rob Allen",
+		"readOn": "2023-09-01T00:00:00"
+	},
+	{
 		"url": "https://blakewatson.com/journal/magnoliajs-2023-the-joys-of-home-cooked-apps/",
 		"name": "The joys of home-cooked apps",
 		"author": "Blake Watson",
@@ -388,6 +418,18 @@
 		"name": "Store Code Discussions in Git using Git Notes",
 		"author": "Wouter de Jong",
 		"readOn": "2024-08-08T00:00:00"
+	},
+	{
+		"url": "https://css-tricks.com/a-complete-guide-to-calc-in-css/",
+		"name": "The CSS Calculating Function Guide",
+		"author": "Chris Coyier",
+		"readOn": "2024-08-17T00:00:00"
+	},
+	{
+		"url": "https://www.anildash.com/2024/09/11/23-what-was-911/",
+		"name": "23: What was 9/11?",
+		"author": "Anil Dash",
+		"readOn": "2024-09-13T00:00:00"
 	},
 	{
 		"url": "https://kerkour.com/sqlite-for-servers",
