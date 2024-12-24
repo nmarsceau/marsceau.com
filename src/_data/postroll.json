@@ -556,23 +556,29 @@
 		"name": "Tech doesn’t make our lives easier. It makes them faster",
 		"author": "Brett Scott",
 		"readOn": "2024-12-20T00:00:00"
-    },
-    {
+	},
+	{
 		"url": "https://mxb.dev/blog/the-return-of-the-90s-web/",
 		"name": "The Return of the 90s Web",
 		"author": "Max Böck",
 		"readOn": "2024-12-22T00:00:00"
-    },
-    {
+	},
+	{
 		"url": "https://smolweb.org/guidelines.html",
 		"name": "Guidelines for a smolweb",
 		"author": "Adële",
 		"readOn": "2024-12-22T00:00:00"
-    },
-    {
+	},
+	{
 		"url": "https://larahogan.me/blog/what-sponsorship-looks-like/",
 		"name": "What does sponsorship look like?",
 		"author": "Lara Hogan",
 		"readOn": "2024-12-22T00:00:00"
+	},
+	{
+		"url": "https://coryd.dev/posts/2024/go-ahead-and-block-ai-web-crawlers",
+		"name": "Go ahead and block AI web crawlers",
+		"author": "Cory Dransfeldt",
+		"readOn": "2024-12-23T00:00:00"
 	}
 ]
