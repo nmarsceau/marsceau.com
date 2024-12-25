@@ -586,5 +586,11 @@
 		"name": "Offline only",
 		"author": "pcalves",
 		"readOn": "2024-12-25T00:00:00"
+	},
+	{
+		"url": "https://chrisbolin.co/offline/",
+		"name": "Offline Only",
+		"author": "Chris Bolin",
+		"readOn": "2024-12-25T00:00:00"
 	}
 ]
