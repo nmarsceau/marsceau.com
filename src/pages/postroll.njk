@@ -4,7 +4,7 @@ permalink: "/postroll/index.html"
 title: Postroll | Nick Marsceau
 ---
 <h1>Postroll</h1>
-<p><a href="https://slashpages.net/#postroll"><small>What is a postroll?</small></a>
+<p><a href="https://slashpages.net/#postroll"><small>What is a postroll?</small></a></p>
 <ul class="postroll">
     {%- for post in postroll | reverse -%}
         <li>
@@ -18,7 +18,6 @@ title: Postroll | Nick Marsceau
 					<time datetime="{{ post.readOn }}">{{ post.readOn | toLocaleDateString }}</time>
 				{%- endif -%}
 			</span>
-			</p>
         </li>
     {%- endfor -%}
 </ul>
