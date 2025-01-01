@@ -580,5 +580,53 @@
 		"name": "Go ahead and block AI web crawlers",
 		"author": "Cory Dransfeldt",
 		"readOn": "2024-12-23T00:00:00"
+	},
+	{
+		"url": "https://pcalv.es/offline-only/",
+		"name": "Offline only",
+		"author": "pcalves",
+		"readOn": "2024-12-25T00:00:00"
+	},
+	{
+		"url": "https://chrisbolin.co/offline/",
+		"name": "Offline Only",
+		"author": "Chris Bolin",
+		"readOn": "2024-12-25T00:00:00"
+	},
+	{
+		"url": "https://aklos.substack.com/p/why-not-hire-part-time-developers",
+		"name": "Why not hire part-time developers?",
+		"author": "Alex Klos",
+		"readOn": "2024-12-26T00:00:00"
+	},
+	{
+		"url": "https://daverupert.com/2024/12/css-wants-to-be-a-system/",
+		"name": "CSS wants to be a system",
+		"author": "Dave Rupert",
+		"readOn": "2024-12-27T00:00:00"
+	},
+	{
+		"url": "https://daverupert.com/2024/12/my-little-games-workshop/",
+		"name": "My little games workshop",
+		"author": "Dave Rupert",
+		"readOn": "2024-12-28T00:00:00"
+	},
+	{
+		"url": "https://hamatti.org/posts/i-prefer-discussion-in-open-web/",
+		"name": "I prefer discussion in open web",
+		"author": "Juha-Matti Santala",
+		"readOn": "2024-12-30T00:00:00"
+	},
+	{
+		"url": "https://bentsai.org/posts/my-coffee-workflow",
+		"name": "My Coffee Workflow",
+		"author": "Ben Tsai",
+		"readOn": "2024-12-30T00:00:00"
+	},
+	{
+		"url": "https://daverupert.com/2024/12/twenty-twenty-four/",
+		"name": "Twenty Twenty-Four",
+		"author": "Dave Rupert",
+		"readOn": "2024-12-31T00:00:00"
 	}
 ]
