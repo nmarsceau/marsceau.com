@@ -1,0 +1,20 @@
+---
+layout: layouts/simple.njk
+permalink: "/bookmarks/index.html"
+title: Bookmarks | Nick Marsceau
+---
+<h1>Bookmarks</h1>
+<p><a href="https://slashpages.net/#links"><small>What is this?</small></a></p>
+{%- for section in bookmarks -%}
+	{% set activeBookmarks = section.bookmarks | removeDeadBookmarks %}
+	{% if activeBookmarks.length > 0 %}
+
+		<h2>{{ section.name }}</h2>
+		<ul class="bookmarks">
+			{%- for bookmark in activeBookmarks -%}
+				<li><cite><a href="{{ bookmark.url }}">{{ bookmark.name }}</a></cite></li>
+			{%- endfor -%}
+		</ul>
+
+	{% endif %}
+{%- endfor -%}

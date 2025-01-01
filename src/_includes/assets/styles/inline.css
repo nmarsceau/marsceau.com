@@ -19,6 +19,7 @@
 		12. Blog Pagination
 		13. Experiments
 		14. Postroll
+		15. Bookmarks
 */
 
 /* 0. Reset */
@@ -642,4 +643,10 @@ button:hover, button:focus {
 .postroll .author, .postroll .readOn {
 	font-size: 0.8rem;
 	display: block;
+}
+
+/* 5.15 Bookmarks */
+.bookmarks {
+	list-style-type: none;
+    padding-inline-start: 0;
 }

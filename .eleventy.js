@@ -47,6 +47,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('limit', (list, limit) => list.slice(0, limit));
     eleventyConfig.addFilter('filterOut', (list, remove) => list.filter(item => !remove.includes(item)));
 	eleventyConfig.addFilter('toLocaleDateString', (date) => (new Date(date)).toLocaleDateString());
+	eleventyConfig.addFilter('removeDeadBookmarks', list => list.filter(item => !item.dead));
 
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
