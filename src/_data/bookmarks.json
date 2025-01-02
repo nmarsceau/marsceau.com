@@ -53,7 +53,20 @@
 		]
 	},
 	{
-		"name": "Learning",
+		"name": "Coding Practice",
+		"bookmarks": [
+			{
+				"name": "Advent of Code",
+				"url": "https://adventofcode.com/"
+			},
+			{
+				"name": "Codewars",
+				"url": "https://www.codewars.com/"
+			}
+		]
+	},
+	{
+		"name": "Zines",
 		"bookmarks": [
 			{
 				"name": "Wizard Zines",
