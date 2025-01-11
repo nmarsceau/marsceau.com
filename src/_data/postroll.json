@@ -288,6 +288,12 @@
 		"readOn": "Unknown"
 	},
 	{
+		"url": "https://kilianvalkhof.com/2020/css-html/full-bleed-layout-using-simple-css/",
+		"name": "Full bleed layout using simple CSS",
+		"author": "Kilian Valkhof",
+		"readOn": "2020-10-15T00:00:00"
+	},
+	{
 		"url": "https://clig.dev/",
 		"name": "Command Line Interface Guidelines",
 		"author": "Aanand Prasad, Ben Firshman, Carl Tashian, and Eva Parish",
