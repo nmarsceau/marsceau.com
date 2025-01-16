@@ -664,5 +664,35 @@
 		"name": "How Did Web Development Get So Freaking Complicated?!",
 		"author": "Jared White",
 		"readOn": "2025-01-08T00:00:00"
+	},
+	{
+		"url": "https://werd.io/2024/browsers-imply-noopener-for-links-in-new-tab",
+		"name": "Browsers imply noopener for links in new tab",
+		"author": "Ben Werdmuller",
+		"readOn": "2025-01-09T00:00:00"
+	},
+	{
+		"url": "https://www.spicyweb.dev/surviving-the-ai-pocalypse/",
+		"name": "Creative Strategies for Surviving the AI-pocalypse",
+		"author": "Jared White",
+		"readOn": "2025-01-15T00:00:00"
+	},
+	{
+		"url": "https://chriscoyier.net/2025/01/13/tech-pace-layering/",
+		"name": "Tech + Pace Layering",
+		"author": "Chris Coyier",
+		"readOn": "2025-01-15T00:00:00"
+	},
+	{
+		"url": "https://daverupert.com/2025/01/like-this-and-like-that-and-like-this-and-uh/",
+		"name": "Making \"this\" less annoying",
+		"author": "Dave Rupert",
+		"readOn": "2025-01-16T00:00:00"
+	},
+	{
+		"url": "https://calnewport.com/lessons-from-youtubes-extreme-makers/",
+		"name": "Lessons from YouTube’s Extreme Makers",
+		"author": "Cal Newport",
+		"readOn": "2025-01-16T00:00:00"
 	}
 ]
