@@ -602,7 +602,7 @@ button:hover, button:focus {
 }
 
 /* 5.12 Blog Pagination */
-.blogPagination {
+.pagination {
 	display: flex;
 	justify-content: space-between;
 	margin-block-start: 5em;
