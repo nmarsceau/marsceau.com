@@ -51,6 +51,10 @@
         "name": "Epoch Converter",
         "url": "https://www.epochconverter.com"
     },
+	{
+		"name": "Fallout Terminal Solver",
+		"url": "https://www.moria.us/fallout3/terminal"
+	},
     {
         "name": "Frame It",
         "url": "https://nmarsceau.github.io/frame-it/"
@@ -59,6 +63,10 @@
         "name": "Frontend Checklist",
         "url": "https://frontendchecklist.io/"
     },
+	{
+		"name": "HEX·P3",
+		"url": "https://hexp3.com/"
+	},
     {
         "name": "Hosting Checker",
         "url": "https://www.hostingchecker.net/"
@@ -111,14 +119,26 @@
         "name": "Mockflow",
         "url": "https://mockflow.com/"
     },
+	{
+		"name": "Modern Font Stacks",
+		"url": "https://modernfontstacks.com/"
+	},
     {
         "name": "MX Lookup",
         "url": "https://mxtoolbox.com/"
     },
+	{
+		"name": "MySQL Visual Explain",
+		"url": "https://mysqlexplain.com/"
+	},
     {
         "name": "Online Timer",
         "url": "https://www.timeanddate.com/timer/"
     },
+	{
+		"name": "Password Generator Plus",
+		"url": "https://passwordsgenerator.net/"
+	},
     {
         "name": "Photopea",
         "url": "https://www.photopea.com/"
@@ -131,6 +151,10 @@
         "name": "Regex 101",
         "url": "https://regex101.com"
     },
+	{
+		"name": "ShellCheck",
+		"url": "https://www.shellcheck.net/"
+	},
     {
         "name": "SPF Surveyor",
         "url": "https://dmarcian.com/spf-survey/"
@@ -147,6 +171,10 @@
         "name": "Squoosh",
         "url": "https://squoosh.app/"
     },
+	{
+		"name": "System Font Stack",
+		"url": "https://systemfontstack.com/"
+	},
     {
         "name": "Temporary Email",
         "url": "https://mytemp.email"
@@ -155,6 +183,10 @@
         "name": "TestTLS",
         "url": "https://testtls.com/"
     },
+	{
+		"name": "Unravel URL",
+		"url": "https://unravelurl.com/"
+	},
     {
         "name": "View Source",
         "url": "https://neatnik.net/view-source/"
