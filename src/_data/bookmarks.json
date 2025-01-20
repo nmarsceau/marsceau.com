@@ -21,27 +21,6 @@
 		]
 	},
 	{
-		"name": "Tools",
-		"bookmarks": [
-			{
-				"name": "Klog",
-				"url": "https://klog.jotaen.net/"
-			},
-			{
-				"name": "[x]it!",
-				"url": "https://xit.jotaen.net/"
-			},
-			{
-				"name": "PlantUML",
-				"url": "https://plantuml.com/"
-			},
-			{
-				"name": "ppl",
-				"url": "https://github.com/henrycatalinismith/ppl"
-			}
-		]
-	},
-	{
 		"name": "Interesting",
 		"bookmarks": [
 			{
@@ -79,6 +58,27 @@
 			{
 				"name": "Multipage Version",
 				"url": "https://multipa.ge/"
+			}
+		]
+	},
+	{
+		"name": "Tools",
+		"bookmarks": [
+			{
+				"name": "Klog",
+				"url": "https://klog.jotaen.net/"
+			},
+			{
+				"name": "[x]it!",
+				"url": "https://xit.jotaen.net/"
+			},
+			{
+				"name": "PlantUML",
+				"url": "https://plantuml.com/"
+			},
+			{
+				"name": "ppl",
+				"url": "https://github.com/henrycatalinismith/ppl"
 			}
 		]
 	},
