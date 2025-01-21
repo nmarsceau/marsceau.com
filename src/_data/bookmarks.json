@@ -62,6 +62,47 @@
 		]
 	},
 	{
+		"name": "Podcasts",
+		"bookmarks": [
+			{
+				"name": "Search Engine",
+				"url": "https://www.searchengine.show/"
+			},
+			{
+				"name": "ShopTalk Show",
+				"url": "https://shoptalkshow.com/"
+			},
+			{
+				"name": "Darknet Diaries",
+				"url": "https://darknetdiaries.com/"
+			},
+			{
+				"name": "[citation needed]",
+				"url": "https://www.citationneeded.news/"
+			},
+			{
+				"name": "The Urbanist Agenda",
+				"url": "https://podbay.fm/p/the-urbanist-agenda"
+			},
+			{
+				"name": "Deep Questions",
+				"url": "https://www.thedeeplife.com/listen/"
+			},
+			{
+				"name": "Reply All",
+				"url": "https://replyall.soy"
+			},
+			{
+				"name": "single-threaded",
+				"url": "https://dev.to/single-threaded"
+			},
+			{
+				"name": "Containers",
+				"url": "https://podcasts.apple.com/us/podcast/containers/id1209559177"
+			}
+		]
+	},
+	{
 		"name": "Tools",
 		"bookmarks": [
 			{
