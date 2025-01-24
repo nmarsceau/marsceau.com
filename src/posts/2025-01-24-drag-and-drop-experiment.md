@@ -20,11 +20,14 @@ Help this little duck hop between each pond by dragging and dropping him. (Only 
 
 		& > div {
 			background: #63b0cd;
-			border-radius: 20%;
 
 			display: grid;
 			align-items: center;
 			justify-items: center;
+		}
+
+		& > div.darker {
+			background: #3e92cc;
 		}
 
 		.pond1 {
