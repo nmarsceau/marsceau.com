@@ -724,5 +724,11 @@
 		"name": "I'm glad I took the off-ramp from software engineering",
 		"author": "Forrest Brazeal",
 		"readOn": "2025-01-24T00:00:00"
+	},
+	{
+		"url": "https://stackoverflow.blog/2025/01/22/why-all-developers-should-adopt-a-safety-critical-mindset/",
+		"name": "Why all developers should adopt a safety-critical mindset",
+		"author": "Austin Spiegel",
+		"readOn": "2025-01-24T00:00:00"
 	}
 ]
