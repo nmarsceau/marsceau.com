@@ -58,6 +58,8 @@ Help this little duck hop between each pond by dragging and dropping him:
 		.duck {
 			width: 50%;
 			cursor: grab;
+			user-select: none;
+			touch-action: none;
 		}
 
 		.duck:active {
