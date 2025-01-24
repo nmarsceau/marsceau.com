@@ -1,7 +1,7 @@
 ---
 title: Experimenting With the Drag And Drop API
 description: This week I built an experiment to practice using the drag and drop web API.
-date: 2025-01-23T11:00:00-05:00
+date: 2025-01-24T11:00:00-05:00
 tags:
     - js
     - drag-and-drop
