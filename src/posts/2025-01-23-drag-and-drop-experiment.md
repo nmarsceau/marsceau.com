@@ -8,7 +8,7 @@ tags:
     - experiment
 ---
 I recently built something for work using the drag and drop API, and to help me remember what I learned, I wanted to build a little sample page that showcases the drag and drop API.
-Help this little duck hop between each pond by dragging and dropping him:
+Help this little duck hop between each pond by dragging and dropping him. (Only available on devices with a physical mouse at this time.)
 
 <style>
 	.drag-and-drop {
@@ -58,8 +58,6 @@ Help this little duck hop between each pond by dragging and dropping him:
 		.duck {
 			width: 50%;
 			cursor: grab;
-			user-select: none;
-			touch-action: none;
 		}
 
 		.duck:active {
