@@ -2,6 +2,7 @@ const container = document.querySelector(".drag-and-drop")
 const duck = document.querySelector(".duck")
 const dragImage = duck.cloneNode(true)
 const ponds = container.querySelectorAll("div")
+const quack = new Audio("/assets/audio/quack.mp3")
 
 let currentPond = null
 
@@ -31,6 +32,7 @@ ponds.forEach(pond => {
 	})
 	pond.addEventListener("drop", event => {
 		event.preventDefault()
+		quack.play()
 		event.target.appendChild(duck)
 		pond.classList.remove("darker")
 	})
