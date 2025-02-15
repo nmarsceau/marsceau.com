@@ -736,5 +736,29 @@
 		"name": "Solar will get too cheap to connect to the power grid.",
 		"author": "Ben James",
 		"readOn": "2025-01-25T00:00:00"
+	},
+	{
+		"url": "https://matt.blwt.io/post/corporate-legibility-for-engineers/",
+		"name": "Corporate Legibility for Software Engineers",
+		"author": "Matt Blewitt",
+		"readOn": "2025-02-06T00:00:00"
+	},
+	{
+		"url": "https://tomlingham.com/articles/what-is-a-great-developer/",
+		"name": "What is a \"great\" developer?",
+		"author": "Tom Lingham",
+		"readOn": "2025-02-07T00:00:00"
+	},
+	{
+		"url": "https://rachsmith.com/comfortable-with-the-struggle/",
+		"name": "Comfortable with the struggle",
+		"author": "Rach Smith",
+		"readOn": "2025-02-07T00:00:00"
+	},
+	{
+		"url": "https://hamatti.org/posts/why-personal-site-rather-than-social-media-presence/",
+		"name": "Why a personal site rather than social media presence?",
+		"author": "Juha-Matti Santala",
+		"readOn": "2025-02-07T00:00:00"
 	}
 ]
