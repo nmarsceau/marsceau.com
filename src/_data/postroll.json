@@ -760,5 +760,11 @@
 		"name": "Why a personal site rather than social media presence?",
 		"author": "Juha-Matti Santala",
 		"readOn": "2025-02-07T00:00:00"
+	},
+	{
+		"url": "https://www.zachleat.com/web/nodefine/",
+		"name": "?nodefine — a pattern to skip Custom Element definitions",
+		"author": "Zach Leatherman",
+		"readOn": "2025-02-14T00:00:00"
 	}
 ]
