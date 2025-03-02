@@ -1,0 +1,43 @@
+{% css %}
+body > footer {
+    text-align: right;
+}
+
+.copyright {
+    color: var(--prussionBlue);
+    border-top: 0.5rem solid var(--sapphireBlue);
+    font-size: var(--footerFontSize);
+    display: inline-block;
+    padding-block-start: 0.5rem;
+    margin-inline: -0.5rem;
+    padding-inline: 1rem 0.5rem;
+    position: relative;
+    max-width: 70%;
+}
+
+.copyright::after {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 0.5rem;
+    left: 0.2rem;
+    top: -0.3rem;
+    z-index: -1;
+    background-color: var(--carolinaBlue);
+}
+
+@media screen and (min-width: 42rem) {
+    .copyright {
+        margin-inline: -1rem;
+        padding-inline: 1rem;
+    }
+}
+{% endcss %}
+<footer>
+	<p class="copyright">
+		<span class="no-wrap">&copy; Nick Marsceau <span id="copyrightCurrentYear">2025</span>.</span> <span class="no-wrap">All Rights Reserved.</span>
+	</p>
+</footer>
+{% js %}
+document.getElementById('copyrightCurrentYear').innerText = (new Date()).getFullYear();
+{% endjs %}

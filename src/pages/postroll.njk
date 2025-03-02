@@ -9,6 +9,22 @@ pagination:
   alias: postrollPage
   reverse: true
 ---
+{% css %}
+.postroll {
+	list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.postroll cite {
+	font-size: 1.2rem;
+	display: block;
+}
+
+.postroll .author, .postroll .readOn {
+	font-size: 0.8rem;
+	display: block;
+}
+{% endcss %}
 <h1>Postroll</h1>
 <p><a href="https://slashpages.net/#postroll"><small>What is a postroll?</small></a></p>
 <ul class="postroll">
@@ -27,15 +43,4 @@ pagination:
         </li>
     {%- endfor -%}
 </ul>
-<nav class="pagination">
-	<div>
-		{% if pagination.href.previous %}
-			<a href="{{ pagination.href.previous | removeIndexHtml }}">← Newer</a>
-		{% endif %}
-	</div>
-	<div>
-		{% if pagination.href.next %}
-			<a href="{{ pagination.href.next | removeIndexHtml }}">Older →</a>
-		{% endif %}
-	</div>
-</nav>
+{% include "layouts/components/pagination.njk" %}

@@ -4,8 +4,17 @@ permalink: /tools/
 eleventyExcludeFromCollections: true
 title: Tools | Nick Marsceau
 ---
-<h1>Tools</h1>
+{% css %}
+.icon-list {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
 
+.icon-list li * {
+    vertical-align: middle;
+}
+{% endcss %}
+<h1>Tools</h1>
 <ul class="icon-list">
     {%- for tool in tools -%}
         <li>

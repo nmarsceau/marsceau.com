@@ -80,4 +80,6 @@ Help this little duck hop between each pond by dragging and dropping him. (Only 
 	<div class="pond3"></div>
 	<div class="pond4"></div>
 </div>
-<script src="/assets/scripts/drag-and-drop-experiment.js"></script>
+{% js %}
+{% include "assets/scripts/drag-and-drop-experiment.js" %}
+{% endjs %}

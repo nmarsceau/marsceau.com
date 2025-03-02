@@ -3,6 +3,12 @@ layout: layouts/simple.njk
 permalink: "/bookmarks/index.html"
 title: Bookmarks | Nick Marsceau
 ---
+{% css %}
+.bookmarks {
+	list-style-type: none;
+    padding-inline-start: 0;
+}
+{% endcss %}
 <h1>Bookmarks</h1>
 <p><a href="https://slashpages.net/#links"><small>What is this?</small></a></p>
 {%- for section in bookmarks -%}

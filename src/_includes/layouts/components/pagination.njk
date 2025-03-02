@@ -1,0 +1,19 @@
+{% css %}
+.pagination {
+	display: flex;
+	justify-content: space-between;
+	margin-block-start: 5em;
+}
+{% endcss %}
+<nav class="pagination">
+	<div>
+		{% if pagination.href.previous %}
+			<a href="{{ pagination.href.previous | removeIndexHtml }}">← Newer</a>
+		{% endif %}
+	</div>
+	<div>
+		{% if pagination.href.next %}
+			<a href="{{ pagination.href.next | removeIndexHtml }}">Older →</a>
+		{% endif %}
+	</div>
+</nav>

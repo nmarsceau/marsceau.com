@@ -13,16 +13,4 @@ pagination:
 
 {% set postList = posts %}
 {% include "layouts/components/postList.njk" %}
-
-<nav class="pagination">
-	<div>
-		{% if pagination.href.previous %}
-			<a href="{{ pagination.href.previous | removeIndexHtml }}">← Newer Posts</a>
-		{% endif %}
-	</div>
-	<div>
-		{% if pagination.href.next %}
-			<a href="{{ pagination.href.next | removeIndexHtml }}">Older Posts →</a>
-		{% endif %}
-	</div>
-</nav>
+{% include "layouts/components/pagination.njk" %}

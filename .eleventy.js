@@ -29,15 +29,17 @@ module.exports = function (eleventyConfig) {
         return code;
     });
 
-    eleventyConfig.addFilter('minifyCss', code => new cleanCss({}).minify(code).styles);
-    eleventyConfig.addFilter('minifyJs', code => {
+	const minifyCss = code => new cleanCss({}).minify(code).styles;
+    eleventyConfig.addFilter('minifyCss', minifyCss);
+	const minifyJs = code => {
         let minified = uglifyEs.minify(code);
         if (minified.error) {
             console.log('Uglify ES error: ', minified.error);
             return code;
         }
         return minified.code;
-    });
+    };
+    eleventyConfig.addFilter('minifyJs', minifyJs);
     eleventyConfig.addFilter('slugify', string => slugify(string, {
         lower: true,
         replacement: '-',
@@ -48,6 +50,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('filterOut', (list, remove) => list.filter(item => !remove.includes(item)));
 	eleventyConfig.addFilter('toLocaleDateString', (date) => (new Date(date)).toLocaleDateString());
 	eleventyConfig.addFilter('removeDeadBookmarks', list => list.filter(item => !item.dead));
+
+	eleventyConfig.addBundle("css", {
+		transforms: [ minifyCss ]
+	});
+	eleventyConfig.addBundle("js", {
+		transforms: [ minifyJs ]
+	});
 
     return {
         templateFormats: ['md', 'njk', 'html', 'liquid'],
