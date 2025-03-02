@@ -5,10 +5,7 @@ layout: layouts/simple.njk
     <!-- TODO: add a back button here -->
     <header>
         <h1>{{ title }}</h1>
-        <div class="postInfo">
-            {% include "layouts/components/postDate.njk" %}
-            {% include "layouts/components/postTags.njk" %}
-        </div>
+		{% include "layouts/components/postInfo.njk" %}
     </header>
     <section>{{ content | safe }}</section>
 </article>

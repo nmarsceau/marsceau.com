@@ -1,6 +1,14 @@
+{% set machineReadableDate = date.toISOString().split('T')[0] %}
+{% set humanReadableDate = date.toLocaleDateString() %}
+{% css %}
+.postedDate {
+    margin-block-end: 0;
+    white-space: nowrap;
+}
+{% endcss %}
 <p class="postedDate">
     <small>
         Posted on
-        <time datetime="{{ date.toISOString().split('T')[0] }}">{{ date.toLocaleDateString() }}</time>
+        <time datetime="{{ machineReadableDate }}">{{ humanReadableDate }}</time>
     </small>
 </p>

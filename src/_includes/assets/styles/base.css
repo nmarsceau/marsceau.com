@@ -401,28 +401,3 @@ button:hover, button:focus {
 	background-color: var(--lightGray);
 	padding-inline: 0.5rem;
 }
-
-/* Posts */
-.postInfo {
-    margin-block-end: 1em;
-}
-
-@media screen and (min-width: 425px) {
-    .postInfo {
-        display: flex;
-        column-gap: 1em;
-    }
-}
-
-.postedDate {
-    margin-block-end: 0;
-    white-space: nowrap;
-}
-
-.tagList span {
-    font-size: 0.7em;
-    border: 1px solid var(--celadonBlue);
-    color: var(--celadonBlue);
-    padding: 0.25em 1em 0.4em;
-    border-radius: 2em;
-}
