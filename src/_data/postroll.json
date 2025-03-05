@@ -773,5 +773,12 @@
 		"author": "Flavio Copes",
 		"readOn": "2025-02-28T00:00:00",
 		"note": "A lot of this was very familiar, but I still picked up some new tips along the way, like the '-n' flag for grep and the '-c' flag for uniq."
+	},
+	{
+		"url": "https://hamatti.org/posts/what-does-it-feel-like-to-read-rss-feeds/",
+		"name": "What does it feel like to read RSS feeds?",
+		"author": "Juha-Matti Santala",
+		"readOn": "2025-03-04T00:00:00",
+		"note": ""
 	}
 ]
