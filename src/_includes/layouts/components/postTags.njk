@@ -8,7 +8,7 @@
 }
 {% endcss %}
 <div class="tagList">
-    {% for tag in tags | filterOut(['posts']) %}
+    {% for tag in tags | filterOut(['posts', 'rss-club']) %}
         <span>{{ tag }}</span>
     {% endfor %}
 </div>

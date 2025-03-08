@@ -7,5 +7,37 @@ layout: layouts/simple.njk
         <h1>{{ title }}</h1>
 		{% include "layouts/components/postInfo.njk" %}
     </header>
+	{% if tags.includes('rss-club') %}
+		{% css %}
+		.rss-club {
+			position: relative;
+			margin-inline-start: 1rem;
+			margin-block: 0.5rem;
+			padding-block: 0.5rem;
+			border-inline-start: 0.5rem solid var(--sapphireBlue);
+		}
+
+		.rss-club::after {
+			content: ' ';
+			position: absolute;
+			width: 0.5rem;
+			height: 100%;
+			left: -0.67rem;
+			bottom: -0.17rem;
+			z-index: -1;
+			background-color: var(--carolinaBlue);
+		}
+
+		.rss-club tt {
+			margin-inline-start: 0.5rem;
+		}
+		{% endcss %}
+		<aside class="rss-club">
+			<tt>
+				🤫 It's a secret to everyone!
+				<a href="https://daverupert.com/2018/01/welcome-to-rss-club/">Read more about RSS Club</a>.
+			</tt>
+		</aside>
+	{% endif %}
     <section>{{ content | safe }}</section>
 </article>

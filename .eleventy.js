@@ -58,6 +58,12 @@ module.exports = function (eleventyConfig) {
 		transforms: [ minifyJs ]
 	});
 
+	eleventyConfig.addCollection("blogPosts", collectionsApi => {
+		return collectionsApi
+			.getFilteredByTag("posts")
+			.filter(post => !post.data.tags.includes("rss-club"))
+	})
+
 	return {
 		templateFormats: ['md', 'njk', 'html', 'liquid'],
 		markdownTemplateEngine: 'liquid',
