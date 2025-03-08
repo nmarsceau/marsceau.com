@@ -1,8 +1,24 @@
 ---
 layout: layouts/simple.njk
 ---
+{% css %}
+.back-link {
+	display: block;
+	top: -2em;
+	position: relative;
+	height: 0;
+	font-size: 1.25em;
+}
+
+.back-arrow {
+	font-size: 1.3em;
+}
+{% endcss %}
 <article>
-    <!-- TODO: add a back button here -->
+	<a href="/blog" class="back-link">
+		<span class="back-arrow" aria-hidden="true">&lsaquo;</span>
+		Back
+	</a>
     <header>
         <h1>{{ title }}</h1>
 		{% include "layouts/components/postInfo.njk" %}
