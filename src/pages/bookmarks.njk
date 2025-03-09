@@ -9,19 +9,43 @@ title: Bookmarks | Nick Marsceau
 	list-style-type: none;
     padding-inline-start: 0;
 }
+
+details.toggleLabel summary {
+	margin-block-end: 0.3em;
+}
 {% endcss %}
 <h1>Bookmarks</h1>
 <p><a href="https://slashpages.net/#links"><small>What is this?</small></a></p>
+{% set initialSectionLimit = 15 %}
 {%- for section in bookmarks -%}
 	{% set activeBookmarks = section.bookmarks | removeDeadBookmarks %}
 	{% if activeBookmarks.length > 0 %}
 
 		<h2>{{ section.name }}</h2>
 		<ul class="bookmarks">
-			{%- for bookmark in activeBookmarks -%}
+			{%- for bookmark in activeBookmarks | limit(initialSectionLimit) -%}
 				<li><cite><a href="{{ bookmark.url }}">{{ bookmark.name }}</a></cite></li>
 			{%- endfor -%}
+			{% if activeBookmarks.length > initialSectionLimit %}
+				<details class="toggleLabel" offLabel="More" onLabel="Less">
+					<summary>More</summary>
+					{%- for bookmark in activeBookmarks | offset(initialSectionLimit) -%}
+						<li><cite><a href="{{ bookmark.url }}">{{ bookmark.name }}</a></cite></li>
+					{%- endfor -%}
+				</details>
+			{% endif %}
 		</ul>
 
 	{% endif %}
 {%- endfor -%}
+{% js %}
+document.querySelectorAll("details.toggleLabel").forEach(element => {
+	element.addEventListener("toggle", toggleDetailsLabel)
+})
+
+function toggleDetailsLabel() {
+	const offLabel = this.getAttribute("offLabel")
+	const onLabel = this.getAttribute("onLabel")
+	this.querySelector("summary").textContent = this.hasAttribute("open") ? onLabel : offLabel
+}
+{% endjs %}

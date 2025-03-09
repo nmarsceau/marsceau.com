@@ -47,6 +47,7 @@ module.exports = function (eleventyConfig) {
 	}));
 	eleventyConfig.addFilter('removeIndexHtml', url => url.replace(/index.html$/, ''));
 	eleventyConfig.addFilter('limit', (list, limit) => list.slice(0, limit));
+	eleventyConfig.addFilter('offset', (list, offset) => list.slice(offset));
 	eleventyConfig.addFilter('filterOut', (list, remove) => list.filter(item => !remove.includes(item)));
 	eleventyConfig.addFilter('toLocaleDateString', (date) => (new Date(date)).toLocaleDateString());
 	eleventyConfig.addFilter('removeDeadBookmarks', list => list.filter(item => !item.dead));

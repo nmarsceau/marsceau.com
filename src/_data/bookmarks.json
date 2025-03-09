@@ -17,6 +17,10 @@
 			{
 				"name": "Hard Code & Soft Skills",
 				"url": "https://daverupert.com/projects/hardcodesoftskills/"
+			},
+			{
+				"name": "Fallout Terminal Solver",
+				"url": "https://www.moria.us/fallout3/terminal"
 			}
 		]
 	},
@@ -106,12 +110,148 @@
 		"name": "Tools",
 		"bookmarks": [
 			{
+				"name": "ASCII Character Table",
+				"url": "https://www.asciitable.com/"
+			},
+			{
+				"name": "Base64 Decoder",
+				"url": "https://www.base64decode.org"
+			},
+			{
+				"name": "Color Hexa",
+				"url": "https://colorhexa.com"
+			},
+			{
+				"name": "Content Security Policy Reference",
+				"url": "https://content-security-policy.com/"
+			},
+			{
+				"name": "Content Security Policy Validator",
+				"url": "https://cspvalidator.org/#url=https://cspvalidator.org/"
+			},
+			{
+				"name": "Crontab Guru",
+				"url": "https://crontab.guru"
+			},
+			{
+				"name": "Date Calculator",
+				"url": "https://www.timeanddate.com/date/dateadd.html"
+			},
+			{
+				"name": "Diffchecker",
+				"url": "https://www.diffchecker.com/"
+			},
+			{
+				"name": "DKIM Record Checker",
+				"url": "https://dmarcian.com/dkim-inspector/"
+			},
+			{
+				"name": "DMARC Record Checker",
+				"url": "https://dmarcian.com/dmarc-inspector/"
+			},
+			{
+				"name": "DNS Lookup",
+				"url": "https://dnschecker.org/all-dns-records-of-domain.php"
+			},
+			{
+				"name": "Epoch Converter",
+				"url": "https://www.epochconverter.com"
+			},
+			{
+				"name": "Frame It",
+				"url": "https://nmarsceau.github.io/frame-it/"
+			},
+			{
+				"name": "Frontend Checklist",
+				"url": "https://frontendchecklist.io/"
+			},
+			{
+				"name": "HEX·P3",
+				"url": "https://hexp3.com/"
+			},
+			{
+				"name": "Hosting Checker",
+				"url": "https://www.hostingchecker.net/"
+			},
+			{
+				"name": "HSTS Checker",
+				"url": "https://www.site24x7.com/tools/hsts.html"
+			},
+			{
+				"name": "HTML DOM",
+				"url": "https://phuoc.ng/collection/html-dom/"
+			},
+			{
+				"name": "HTML Entity Codes",
+				"url": "https://www.toptal.com/designers/htmlarrows/"
+			},
+			{
+				"name": "HTML Head",
+				"url": "https://htmlhead.dev/"
+			},
+			{
+				"name": "JavaScript Operator Lookup",
+				"url": "https://www.joshwcomeau.com/operator-lookup/"
+			},
+			{
+				"name": "JSON Formatter",
+				"url": "https://jsonformatter.com"
+			},
+			{
+				"name": "Keycode.info",
+				"url": "https://www.toptal.com/developers/keycode"
+			},
+			{
 				"name": "Klog",
 				"url": "https://klog.jotaen.net/"
 			},
 			{
-				"name": "[x]it!",
-				"url": "https://xit.jotaen.net/"
+				"name": "Link To QR",
+				"url": "https://link-to-qr.com/"
+			},
+			{
+				"name": "ListDiff",
+				"url": "http://www.listdiff.com/compare-2-lists-difference-tool"
+			},
+			{
+				"name": "Lorem Ipsum Generator",
+				"url": "https://loremipsum.io/generator/"
+			},
+			{
+				"name": "Mastershot",
+				"url": "https://mastershot.app/"
+			},
+			{
+				"name": "Mockflow",
+				"url": "https://mockflow.com/"
+			},
+			{
+				"name": "Modern Font Stacks",
+				"url": "https://modernfontstacks.com/"
+			},
+			{
+				"name": "MX Lookup",
+				"url": "https://mxtoolbox.com/"
+			},
+			{
+				"name": "MySQL Visual Explain",
+				"url": "https://mysqlexplain.com/"
+			},
+			{
+				"name": "Online Timer",
+				"url": "https://www.timeanddate.com/timer/"
+			},
+			{
+				"name": "Password Generator Plus",
+				"url": "https://passwordsgenerator.net/"
+			},
+			{
+				"name": "Photopea",
+				"url": "https://www.photopea.com/"
+			},
+			{
+				"name": "PHP Sandbox",
+				"url": "https://onlinephp.io"
 			},
 			{
 				"name": "PlantUML",
@@ -120,6 +260,74 @@
 			{
 				"name": "ppl",
 				"url": "https://github.com/henrycatalinismith/ppl"
+			},
+			{
+				"name": "Regex 101",
+				"url": "https://regex101.com"
+			},
+			{
+				"name": "ShellCheck",
+				"url": "https://www.shellcheck.net/"
+			},
+			{
+				"name": "SPF Surveyor",
+				"url": "https://dmarcian.com/spf-survey/"
+			},
+			{
+				"name": "SQL DBM",
+				"url": "https://sqldbm.com/Home/"
+			},
+			{
+				"name": "SQL List Converter",
+				"url": "https://nmarsceau.github.io/sql-list-converter/"
+			},
+			{
+				"name": "Squoosh",
+				"url": "https://squoosh.app/"
+			},
+			{
+				"name": "System Font Stack",
+				"url": "https://systemfontstack.com/"
+			},
+			{
+				"name": "Temporary Email",
+				"url": "https://mytemp.email"
+			},
+			{
+				"name": "TestTLS",
+				"url": "https://testtls.com/"
+			},
+			{
+				"name": "Unravel URL",
+				"url": "https://unravelurl.com/"
+			},
+			{
+				"name": "View Source",
+				"url": "https://neatnik.net/view-source/"
+			},
+			{
+				"name": "W3C Markup Validator",
+				"url": "https://validator.w3.org/"
+			},
+			{
+				"name": "What Unicode Character Is This?",
+				"url": "https://babelstone.co.uk/Unicode/whatisit.html"
+			},
+			{
+				"name": "Word Counter",
+				"url": "https://wordcounter.net/"
+			},
+			{
+				"name": "X-Frame-Options Checker",
+				"url": "https://www.site24x7.com/tools/x-frame-options.html"
+			},
+			{
+				"name": "[x]it!",
+				"url": "https://xit.jotaen.net/"
+			},
+			{
+				"name": "XML Lint",
+				"url": "https://xmllint.com/"
 			}
 		]
 	},

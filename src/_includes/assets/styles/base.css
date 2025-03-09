@@ -401,3 +401,8 @@ button:hover, button:focus {
 	background-color: var(--lightGray);
 	padding-inline: 0.5rem;
 }
+
+/* Details */
+details > summary {
+	cursor: pointer;
+}
