@@ -780,5 +780,19 @@
 		"author": "Juha-Matti Santala",
 		"readOn": "2025-03-04T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://no-hello.com",
+		"name": "Please don't just say \"hello\"",
+		"author": "Unknown",
+		"readOn": "2025-03-14T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://chriscoyier.net/2025/03/14/google-being-forced-to-sell-chrome-is-not-good-for-the-web/",
+		"name": "Google Being Forced To Sell Chrome is Not Good for the Web",
+		"author": "Chris Coyier",
+		"readOn": "2025-03-14T00:00:00",
+		"note": ""
 	}
 ]
