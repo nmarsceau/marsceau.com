@@ -378,6 +378,12 @@
 		"readOn": "2024-02-10T00:00:00"
 	},
 	{
+		"url": "https://www.anildash.com/2024/02/06/wherever-you-get-podcasts/",
+		"name": "\"Wherever you get your podcasts\" is a radical statement.",
+		"author": "Anil Dash",
+		"readOn": "2024-02-12T00:00:00"
+	},
+	{
 		"url": "https://geoffgraham.me/hey-will-you-build-me-a-website/",
 		"name": "Hey, will you build me a website?",
 		"author": "Geoff Graham",
@@ -856,6 +862,13 @@
 		"name": "\"AI-first\" is the new Return To Office",
 		"author": "Anil Dash",
 		"readOn": "2025-05-01T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.anildash.com/2025/05/01/what-would-good-ai-look-like/",
+		"name": "What Would \"Good\" AI Look Like?",
+		"author": "Anil Dash",
+		"readOn": "2025-05-06T00:00:00",
 		"note": ""
 	}
 ]
