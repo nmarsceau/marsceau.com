@@ -318,6 +318,12 @@
 		"readOn": "2022-04-01T00:00:00"
 	},
 	{
+		"url": "https://platformers.dev/log/2022/latest-literally-kills-puppies/",
+		"name": "Just say no to :latest",
+		"author": "David Norton",
+		"readOn": "2022-10-15T00:00:00"
+	},
+	{
 		"url": "https://blog.mnavarro.dev/a-crud-reality",
 		"name": "A CRUD Reality",
 		"author": "Matías Navarro-Carter",
@@ -883,6 +889,13 @@
 		"name": "The Internet of Consent",
 		"author": "Anil Dash",
 		"readOn": "2025-05-31T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://calnewport.com/are-we-too-concerned-about-social-media/",
+		"name": "Are We Too Concerned About Social Media?",
+		"author": "Cal Newport",
+		"readOn": "2025-06-05T00:00:00",
 		"note": ""
 	}
 ]
