@@ -1,6 +1,3 @@
-const cleanCss = require('clean-css');
-const uglifyEs = require('uglify-es');
-const htmlMin = require('html-minifier');
 const slugify = require('slugify');
 const eleventyNavigation = require('@11ty/eleventy-navigation');
 const eleventySyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
@@ -16,30 +13,6 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventySyntaxHighlight);
 	eleventyConfig.addPlugin(feedPlugin);
 
-	eleventyConfig.addTransform('minifyHtml', (code, outputPath) => {
-		if (outputPath.endsWith('.html')) {
-			const minified = htmlMin.minify(code, {
-				useShortDoctype: true,
-				removeComments: true,
-				collapseWhitespace: true,
-				minifyJS: true
-			});
-			return minified;
-		}
-		return code;
-	});
-
-	const minifyCss = code => new cleanCss({}).minify(code).styles;
-	eleventyConfig.addFilter('minifyCss', minifyCss);
-	const minifyJs = code => {
-		let minified = uglifyEs.minify(code);
-		if (minified.error) {
-			console.log('Uglify ES error: ', minified.error);
-			return code;
-		}
-		return minified.code;
-	};
-	eleventyConfig.addFilter('minifyJs', minifyJs);
 	eleventyConfig.addFilter('slugify', string => slugify(string, {
 		lower: true,
 		replacement: '-',
@@ -52,12 +25,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('toLocaleDateString', (date) => (new Date(date)).toLocaleDateString());
 	eleventyConfig.addFilter('removeDeadBookmarks', list => list.filter(item => !item.dead));
 
-	eleventyConfig.addBundle("css", {
-		transforms: [ minifyCss ]
-	});
-	eleventyConfig.addBundle("js", {
-		transforms: [ minifyJs ]
-	});
+	eleventyConfig.addBundle("css");
+	eleventyConfig.addBundle("js");
 
 	eleventyConfig.addCollection("blogPosts", collectionsApi => {
 		return collectionsApi
