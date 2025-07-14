@@ -4,7 +4,8 @@
   "description": "This is the codebase for nickmarso.com.",
   "scripts": {
     "dev": "npx eleventy --serve",
-    "build": "npx eleventy"
+    "build": "npx eleventy",
+	"compileRubiksMixup": "powershell $env:GOOS = 'js'; $env:GOARCH = 'wasm'; go build -o \"src/_includes/assets/scripts/rubiksMixup.wasm\" \"src/_includes/assets/scripts/rubiksMixup.go\""
   },
   "repository": {
     "type": "git",

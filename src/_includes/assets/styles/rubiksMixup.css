@@ -1,0 +1,96 @@
+.experiment {
+	min-height: 300px;
+}
+
+.inputContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+
+	label {
+		margin: 0;
+	}
+
+	#steps, #run {
+		flex: 0 1 auto;
+	}
+
+	#run {
+		white-space: nowrap;
+	}
+}
+
+@media screen and (min-width: 330px) {
+	.inputContainer {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	label {
+		flex: 1 0 auto;
+	}
+
+	#steps {
+		width: 100px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	.inputContainer {
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+
+	label {
+		white-space: nowrap;
+		flex: 0 0 min-content;
+		padding-block: 0.4em;
+	}
+}
+
+#rubiksOutput {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	margin-top: 1em;
+}
+
+@media screen and (min-width: 300px) {
+	#rubiksOutput {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width: 400px) {
+	#rubiksOutput {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media screen and (min-width: 500px) {
+	#rubiksOutput {
+		grid-template-columns: repeat(5, 1fr);
+	}
+}
+
+#rubiksOutput span {
+	color: #000;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 1.5em;
+	text-align: center;
+	
+	border-radius: 0.5em;
+	
+	&.green {
+		background-color: #b7e4c7;
+	}
+
+	&.blue {
+		background-color: #bdcdea;
+	}
+
+	&.yellow {
+		background-color: #f6e28b;
+	}
+}
