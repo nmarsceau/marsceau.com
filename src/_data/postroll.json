@@ -960,5 +960,26 @@
 		"author": "Alireza Bashiri",
 		"readOn": "2025-08-11T00:00:00",
 		"note": "Same, bro."
+	},
+	{
+		"url": "https://www.craigkerstiens.com/2024/11/11/getting-comfortable-with-psql/",
+		"name": "Getting comfortable with psql",
+		"author": "Craig Kerstiens",
+		"readOn": "2025-08-20T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.craigkerstiens.com/2022/11/28/what-problem-are-we-trying-to-solve/",
+		"name": "What problem are we trying to solve?",
+		"author": "Craig Kerstiens",
+		"readOn": "2025-08-20T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://robinrendle.com/notes/vibe-driven-development/",
+		"name": "Vibe Driven Development",
+		"author": "Robin Rendle",
+		"readOn": "2025-08-21T00:00:00",
+		"note": ""
 	}
 ]
