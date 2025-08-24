@@ -3,24 +3,28 @@
 		"name": "Fun & Games",
 		"bookmarks": [
 			{
-				"name": "Webbed Briefs",
-				"url": "https://briefs.video"
+				"name": "368 Chickens",
+				"url": "https://368chickens.com/"
 			},
 			{
 				"name": "Draw.Audio",
 				"url": "https://draw.audio/"
 			},
 			{
-				"name": "Mundango",
-				"url": "https://mundango.daverupert.com/"
+				"name": "Fallout Terminal Solver",
+				"url": "https://www.moria.us/fallout3/terminal"
 			},
 			{
 				"name": "Hard Code & Soft Skills",
 				"url": "https://daverupert.com/projects/hardcodesoftskills/"
 			},
 			{
-				"name": "Fallout Terminal Solver",
-				"url": "https://www.moria.us/fallout3/terminal"
+				"name": "Mundango",
+				"url": "https://mundango.daverupert.com/"
+			},
+			{
+				"name": "Webbed Briefs",
+				"url": "https://briefs.video"
 			}
 		]
 	},
