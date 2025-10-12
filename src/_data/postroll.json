@@ -1072,5 +1072,19 @@
 		"author": "Blake Watson",
 		"readOn": "2025-09-29T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://denodell.com/blog/html-best-kept-secret-output-tag",
+		"name": "HTML's Best Kept Secret: The <output> Tag",
+		"author": "Den Odell",
+		"readOn": "2025-10-11T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://denodell.com/blog/a-better-web-for-everyone-everywhere",
+		"name": "The Web Is About to Get Better for Everyone, Everywhere",
+		"author": "Den Odell",
+		"readOn": "2025-10-11T00:00:00",
+		"note": ""
 	}
 ]
