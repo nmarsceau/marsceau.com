@@ -1121,5 +1121,19 @@
 		"author": "Cal Newport",
 		"readOn": "2025-10-28T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://christianheilmann.com/2025/10/08/abandonware-of-the-web-do-you-know-that-there-is-an-html-tables-api/",
+		"name": "Abandonware of the web: do you know that there is an HTML tables API?",
+		"author": "Christian Heilmann",
+		"readOn": "2025-11-01T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://larahogan.me/blog/manager-voltron/",
+		"name": "When your manager isn't supporting you, build a Voltron",
+		"author": "Lara Hogan",
+		"readOn": "2025-11-01T00:00:00",
+		"note": "I'm thankful to have an excellent manager right now, but this is a great strategy to thrive under a bad manager."
 	}
 ]
