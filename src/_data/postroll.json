@@ -1191,5 +1191,54 @@
 		"author": "Annie Hedgpeth",
 		"readOn": "2025-12-03T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://andyljones.com/posts/horses.html",
+		"name": "Horses",
+		"author": "andy jones",
+		"readOn": "2025-12-08T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://ramones.dev/posts/where-are-you-supposed-to-go/",
+		"name": "Where are you supposed to go if you don't care about growth?",
+		"author": "Ramon van Sprundel",
+		"readOn": "2025-12-09T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://higashi.blog/2025/12/07/ai-verification/",
+		"name": "AI should only run as fast as we can catch up",
+		"author": "Steven Yue",
+		"readOn": "2025-12-09T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/",
+		"name": "Has the cost of building software just dropped 90%?",
+		"author": "Martin Alderson",
+		"readOn": "2025-12-09T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.derekthompson.org/p/why-everything-became-television",
+		"name": "Everything Is Television",
+		"author": "Derek Thompson",
+		"readOn": "2025-12-11T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://programmingsimplicity.substack.com/p/we-lost-something-1970s-repls-were",
+		"name": "We Lost Something: 1970s REPLs Were Better Than Modern Development Environments",
+		"author": "Paul Tarvydas",
+		"readOn": "2025-12-13T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://calnewport.com/on-paperbacks-and-tiktok/",
+		"name": "On Paperbacks and TikTok",
+		"author": "Cal Newport",
+		"readOn": "2025-12-22T00:00:00",
+		"note": ""
 	}
 ]
