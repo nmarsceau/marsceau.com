@@ -1299,8 +1299,15 @@
 	},
 	{
 		"url": "https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt",
-		"name": "Code Is Cheap Now. Software Isn’t.",
+		"name": "Code Is Cheap Now. Software Isn't.",
 		"author": "Chris Gregori",
+		"readOn": "2026-01-25T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://antirez.com/news/158",
+		"name": "Don't fall into the anti-AI hype",
+		"author": "antirez",
 		"readOn": "2026-01-25T00:00:00",
 		"note": ""
 	}
