@@ -57,6 +57,10 @@
 				"name": "ugliest.app",
 				"url": "https://ugliest.app/",
 				"dead": true
+			},
+			{
+				"name": "ReMemory",
+				"url": "https://eljojo.github.io/rememory/"
 			}
 		]
 	},
