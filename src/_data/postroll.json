@@ -1401,5 +1401,40 @@
 		"author": "Terence Eden",
 		"readOn": "2026-02-26T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html",
+		"name": "Cleaning up merged git branches: a one-liner from the CIA's leaked dev docs",
+		"author": "Spencer Dixon",
+		"readOn": "2026-02-27T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://ben-mini.com/2026/the-happiest-ive-ever-been",
+		"name": "The happiest I’ve ever been",
+		"author": "Ben Wallace",
+		"readOn": "2026-02-28T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-3-the-website/",
+		"name": "Web History Chapter 3: The Website",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-02-28T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://machielreyneke.com/blog/persuasion/",
+		"name": "4,500 Physicians Agree",
+		"author": "Machiel Reyneke",
+		"readOn": "2026-03-01T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-4-search/",
+		"name": "Web History Chapter 4: Search",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-03-01T00:00:00",
+		"note": ""
 	}
 ]
