@@ -1,0 +1,302 @@
+[
+	{
+		"url": "https://daverupert.com/2024/01/twenty-twenty-three/",
+		"name": "2023",
+		"author": "Dave Rupert",
+		"readOn": "2024-01-04T00:00:00"
+	},
+	{
+		"url": "https://robinrendle.com/notes/resolutions-are-dumb/",
+		"name": "Resolutions are dumb",
+		"author": "Robin Rendle",
+		"readOn": "2024-01-04T00:00:00"
+	},
+	{
+		"url": "https://www.rollingstone.com/culture/culture-commentary/internet-future-about-to-get-weird-1234938403/",
+		"name": "The Internet Is About to Get Weird Again",
+		"author": "Anil Dash",
+		"readOn": "2024-01-10T00:00:00"
+	},
+	{
+		"url": "https://blog.mozilla.org/netpolicy/2024/01/19/platform-tilt/",
+		"name": "Platform Tilt: Documenting the Uneven Playing Field for an Independent Browser Like Firefox",
+		"author": "Mozilla",
+		"readOn": "2024-01-19T00:00:00"
+	},
+	{
+		"url": "https://spectrum.ieee.org/lean-software-development",
+		"name": "Why Bloat Is Still Software's Biggest Vulnerability",
+		"author": "Bert Hubert",
+		"readOn": "2024-02-10T00:00:00"
+	},
+	{
+		"url": "https://www.anildash.com/2024/02/06/wherever-you-get-podcasts/",
+		"name": "\"Wherever you get your podcasts\" is a radical statement.",
+		"author": "Anil Dash",
+		"readOn": "2024-02-12T00:00:00"
+	},
+	{
+		"url": "https://geoffgraham.me/hey-will-you-build-me-a-website/",
+		"name": "Hey, will you build me a website?",
+		"author": "Geoff Graham",
+		"readOn": "2024-02-17T00:00:00"
+	},
+	{
+		"url": "https://ericwbailey.website/published/thoughts-on-embedding-alternative-text-metadata-into-images/",
+		"name": "Thoughts on embedding alternative text metadata into images",
+		"author": "Eric Bailey",
+		"readOn": "2024-03-16T00:00:00"
+	},
+	{
+		"url": "https://www.takahe.org.nz/heat-death-of-the-internet/",
+		"name": "Heat Death of the Internet",
+		"author": "Gregory Bennett",
+		"readOn": "2024-04-05T00:00:00"
+	},
+	{
+		"url": "https://cruncher.ch/blog/printing-music-with-css-grid/",
+		"name": "Printing music with CSS Grid",
+		"author": "Stephen Band",
+		"readOn": "2024-04-26T00:00:00"
+	},
+	{
+		"url": "https://pcalv.es/offboarding/",
+		"name": "Offboarding",
+		"author": "pcalves",
+		"readOn": "2024-07-04T00:00:00"
+	},
+	{
+		"url": "https://daught.me/blog/2024/indie-web/",
+		"name": "The \"IndieWeb\" feels like coming home",
+		"author": "Nathaniel Daught",
+		"readOn": "2024-07-09T00:00:00"
+	},
+	{
+		"url": "https://birchtree.me/blog/the-public-web-and-consent/",
+		"name": "The public web and consent",
+		"author": "Matt Birchler",
+		"readOn": "2024-07-09T00:00:00"
+	},
+	{
+		"url": "https://chriscoyier.net/2024/07/13/its-really-this-thing-that-gets-me/",
+		"name": "It's really this thing that gets me.",
+		"author": "Chris Coyier",
+		"readOn": "2024-07-14T00:00:00"
+	},
+	{
+		"url": "https://wouterj.nl/2024/08/git-notes",
+		"name": "Store Code Discussions in Git using Git Notes",
+		"author": "Wouter de Jong",
+		"readOn": "2024-08-08T00:00:00"
+	},
+	{
+		"url": "https://css-tricks.com/a-complete-guide-to-calc-in-css/",
+		"name": "The CSS Calculating Function Guide",
+		"author": "Chris Coyier",
+		"readOn": "2024-08-17T00:00:00"
+	},
+	{
+		"url": "https://www.anildash.com/2024/09/11/23-what-was-911/",
+		"name": "23: What was 9/11?",
+		"author": "Anil Dash",
+		"readOn": "2024-09-13T00:00:00"
+	},
+	{
+		"url": "https://kerkour.com/sqlite-for-servers",
+		"name": "Optimizing SQLite for servers",
+		"author": "Sylvain Kerkour",
+		"readOn": "2024-09-28T00:00:00"
+	},
+	{
+		"url": "https://kevquirk.com/blog/why-have-a-personal-site-instead-of-social-media",
+		"name": "Why Have a Personal Site Instead of Social Media?",
+		"author": "Kev Quirk",
+		"readOn": "2024-10-05T00:00:00"
+	},
+	{
+		"url": "https://aworkinglibrary.com/writing/laborsaving",
+		"name": "Laborsaving",
+		"author": "Mandy Brown",
+		"readOn": "2024-10-08T00:00:00"
+	},
+	{
+		"url": "https://tonsky.me/blog/crdt-filesync/",
+		"name": "Local, first, forever",
+		"author": "Niki",
+		"readOn": "2024-10-08T00:00:00"
+	},
+	{
+		"url": "https://expressionstatement.com/html-form-validation-is-heavily-underused",
+		"name": "HTML Form Validation is heavily underused",
+		"author": "everdimension",
+		"readOn": "2024-10-30T00:00:00"
+	},
+	{
+		"url": "https://grayduck.mn/2024/11/21/handling-cookies-is-a-minefield/",
+		"name": "Handling Cookies is a Minefield",
+		"author": "April King",
+		"readOn": "2024-11-21T00:00:00"
+	},
+	{
+		"url": "https://abenezer.org/blog/hyrum-law-in-golang",
+		"name": "Hyrum's Law in Golang",
+		"author": "Abenezer Belachew",
+		"readOn": "2024-11-23T00:00:00"
+	},
+	{
+		"url": "https://textslashplain.com/2016/04/04/downloads-and-the-mark-of-the-web/",
+		"name": "Downloads and the Mark-of-the-Web",
+		"author": "ericlaw",
+		"readOn": "2024-11-23T00:00:00"
+	},
+	{
+		"url": "https://www.macchaffee.com/blog/2024/you-have-built-a-kubernetes/",
+		"name": "Dear friend, you have built a Kubernetes",
+		"author": "Mac Chaffee",
+		"readOn": "2024-11-24T00:00:00"
+	},
+	{
+		"url": "https://files.spritely.institute/papers/petnames.html",
+		"name": "Petnames: A humane approach to secure, decentralized naming",
+		"author": "Christine Lemmer-Webber, Mark S. Miller, Zachary Larson, Kate Sills, and Eli Yaacoby",
+		"readOn": "2024-11-27T00:00:00"
+	},
+	{
+		"url": "https://www.gnu.org/philosophy/bug-nobody-allowed-to-understand.html",
+		"name": "The Bug Nobody is Allowed to Understand",
+		"author": "Richard Stallman",
+		"readOn": "2024-11-28T00:00:00"
+	},
+	{
+		"url": "https://dgwbirch.substack.com/p/i-am-a-person-the-bank-says-so",
+		"name": "I Am A Person: The Bank Says So",
+		"author": "David G.W. Birch",
+		"readOn": "2024-11-28T00:00:00"
+	},
+	{
+		"url": "https://sethmlarson.dev/how-to-i-pay-for-a-web-page",
+		"name": "How do I pay the publisher of a web page?",
+		"author": "Seth Larson",
+		"readOn": "2024-12-08T00:00:00"
+	},
+	{
+		"url": "https://www.mcsweeneys.net/articles/the-ux-on-this-small-child-is-terrible",
+		"name": "The UX on this Small Child Is Terrible",
+		"author": "Leslie Ylinen",
+		"readOn": "2024-12-09T00:00:00"
+	},
+	{
+		"url": "https://cassidoo.co/post/human-curation/",
+		"name": "I miss human curation",
+		"author": "Cassidy Williams",
+		"readOn": "2024-12-11T00:00:00"
+	},
+	{
+		"url": "https://aworkinglibrary.com/writing/knowledge-workers",
+		"name": "Knowledge workers",
+		"author": "Mandy Brown",
+		"readOn": "2024-12-12T00:00:00"
+	},
+	{
+		"url": "https://www.marginalia.nu/log/19-website-discoverability-crisis/",
+		"name": "The Small Website Discoverability Crisis",
+		"author": "Viktor Lofgren",
+		"readOn": "2024-12-12T00:00:00"
+	},
+	{
+		"url": "https://caseyhandmer.wordpress.com/2020/12/27/the-future-of-electricity-is-local/",
+		"name": "The future of electricity is local",
+		"author": "Casey Handmer",
+		"readOn": "2024-12-13T00:00:00"
+	},
+	{
+		"url": "https://lighthouseapp.io/blog/deep-dive-finding-rss-feeds",
+		"name": "Deep dive into finding RSS feeds",
+		"author": "Dominik Weber",
+		"readOn": "2024-12-14T00:00:00"
+	},
+	{
+		"url": "https://terriblesoftware.org/2024/12/04/the-6-mistakes-youre-going-to-make-as-a-new-manager/",
+		"name": "The 6 Mistakes You’re Going to Make as a New Manager",
+		"author": "Matheus Lima",
+		"readOn": "2024-12-16T00:00:00"
+	},
+	{
+		"url": "https://www.asomo.co/p/tech-doesnt-make-our-lives-easier",
+		"name": "Tech doesn’t make our lives easier. It makes them faster",
+		"author": "Brett Scott",
+		"readOn": "2024-12-20T00:00:00"
+	},
+	{
+		"url": "https://mxb.dev/blog/the-return-of-the-90s-web/",
+		"name": "The Return of the 90s Web",
+		"author": "Max Böck",
+		"readOn": "2024-12-22T00:00:00"
+	},
+	{
+		"url": "https://smolweb.org/guidelines.html",
+		"name": "Guidelines for a smolweb",
+		"author": "Adële",
+		"readOn": "2024-12-22T00:00:00"
+	},
+	{
+		"url": "https://larahogan.me/blog/what-sponsorship-looks-like/",
+		"name": "What does sponsorship look like?",
+		"author": "Lara Hogan",
+		"readOn": "2024-12-22T00:00:00"
+	},
+	{
+		"url": "https://coryd.dev/posts/2024/go-ahead-and-block-ai-web-crawlers",
+		"name": "Go ahead and block AI web crawlers",
+		"author": "Cory Dransfeldt",
+		"readOn": "2024-12-23T00:00:00"
+	},
+	{
+		"url": "https://pcalv.es/offline-only/",
+		"name": "Offline only",
+		"author": "pcalves",
+		"readOn": "2024-12-25T00:00:00"
+	},
+	{
+		"url": "https://chrisbolin.co/offline/",
+		"name": "Offline Only",
+		"author": "Chris Bolin",
+		"readOn": "2024-12-25T00:00:00"
+	},
+	{
+		"url": "https://aklos.substack.com/p/why-not-hire-part-time-developers",
+		"name": "Why not hire part-time developers?",
+		"author": "Alex Klos",
+		"readOn": "2024-12-26T00:00:00"
+	},
+	{
+		"url": "https://daverupert.com/2024/12/css-wants-to-be-a-system/",
+		"name": "CSS wants to be a system",
+		"author": "Dave Rupert",
+		"readOn": "2024-12-27T00:00:00"
+	},
+	{
+		"url": "https://daverupert.com/2024/12/my-little-games-workshop/",
+		"name": "My little games workshop",
+		"author": "Dave Rupert",
+		"readOn": "2024-12-28T00:00:00"
+	},
+	{
+		"url": "https://hamatti.org/posts/i-prefer-discussion-in-open-web/",
+		"name": "I prefer discussion in open web",
+		"author": "Juha-Matti Santala",
+		"readOn": "2024-12-30T00:00:00"
+	},
+	{
+		"url": "https://bentsai.org/posts/my-coffee-workflow",
+		"name": "My Coffee Workflow",
+		"author": "Ben Tsai",
+		"readOn": "2024-12-30T00:00:00"
+	},
+	{
+		"url": "https://daverupert.com/2024/12/twenty-twenty-four/",
+		"name": "Twenty Twenty-Four",
+		"author": "Dave Rupert",
+		"readOn": "2024-12-31T00:00:00"
+	}
+]

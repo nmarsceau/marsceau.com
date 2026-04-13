@@ -1,0 +1,233 @@
+[
+	{
+		"url": "https://www.dzombak.com/blog/2025/08/getting-good-results-from-claude-code/",
+		"name": "Getting Good Results from Claude Code",
+		"author": "Chris Dzombak",
+		"readOn": "2026-01-07T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.danielbrendel.com/blog/24-are-we-tired-of-social-media-once-and-for-all",
+		"name": "Are we tired of social media once and for all?",
+		"author": "Daniel Brendel",
+		"readOn": "2026-01-07T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://burkeholland.github.io/posts/opus-4-5-change-everything/",
+		"name": "Opus 4.5 is going to change everything",
+		"author": "Burke Holland",
+		"readOn": "2026-01-08T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://walzr.com/postal-arbitrage",
+		"name": "Postal Arbitrage",
+		"author": "Riley Walz",
+		"readOn": "2026-01-12T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://piccalil.li/blog/date-is-out-and-temporal-is-in/",
+		"name": "Date is out, Temporal is in",
+		"author": "Mat Marquis",
+		"readOn": "2026-01-13T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.readmargins.com/p/doordash-and-pizza-arbitrage",
+		"name": "Doordash and Pizza Arbitrage",
+		"author": "Ranjan Roy",
+		"readOn": "2026-01-15T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://calnewport.com/whats-worrying-jonathan-haidt-now/",
+		"name": "What’s Worrying Jonathan Haidt Now?",
+		"author": "Cal Newport",
+		"readOn": "2026-01-19T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://addyosmani.com/blog/next-two-years/",
+		"name": "The Next Two Years of Software Engineering",
+		"author": "Addy Osmani",
+		"readOn": "2026-01-24T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.chrisgregori.dev/opinion/code-is-cheap-now-software-isnt",
+		"name": "Code Is Cheap Now. Software Isn't.",
+		"author": "Chris Gregori",
+		"readOn": "2026-01-25T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://antirez.com/news/158",
+		"name": "Don't fall into the anti-AI hype",
+		"author": "antirez",
+		"readOn": "2026-01-25T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://calnewport.com/the-dangers-of-vibe-reporting-about-ai/",
+		"name": "The Dangers of “Vibe Reporting” About AI",
+		"author": "Cal Newport",
+		"readOn": "2026-02-01T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://surfingcomplexity.blog/2026/02/08/nobody-knows-how-the-whole-system-works/",
+		"name": "Nobody knows how the whole system works",
+		"author": "Lorin Hochstein",
+		"readOn": "2026-02-10T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://atha.io/blog/2026-02-12-viva",
+		"name": "Major European Payment Processor Can't Send Email to Google Workspace Users",
+		"author": "Ian Atha",
+		"readOn": "2026-02-12T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.0xsid.com/blog/aidr",
+		"name": "ai;dr",
+		"author": "Sid",
+		"readOn": "2026-02-12T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://www.joanwestenberg.com/thin-desires-are-eating-your-life/",
+		"name": "Thin Desires Are Eating Your Life",
+		"author": "JA Westenberg",
+		"readOn": "2026-02-15T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://dixken.de/blog/i-found-a-vulnerability-they-found-a-lawyer",
+		"name": "I found a Vulnerability. They found a Lawyer.",
+		"author": "Yannick Dixken",
+		"readOn": "2026-02-20T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-1-birth/",
+		"name": "Web History Chapter 1: Birth",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-02-22T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-2-browsers/",
+		"name": "Web History Chapter 2: Browsers",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-02-23T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://idiallo.com/blog/installed-single-turnstile-for-security-theater",
+		"name": "We installed a single turnstile to feel secure",
+		"author": "Ibrahim Diallo",
+		"readOn": "2026-02-24T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://daverupert.com/2026/02/smaller-and-dumber/",
+		"name": "Smaller and dumber",
+		"author": "Dave Rupert",
+		"readOn": "2026-02-24T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://dylancastillo.co/posts/ai-side-projects.html",
+		"name": "I hate AI side projects",
+		"author": "Dylan Castillo",
+		"readOn": "2026-02-25T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://juno-labs.com/blogs/every-company-building-your-ai-assistant-is-an-ad-company",
+		"name": "Every company building your AI assistant is now an ad company",
+		"author": "Adam Juhasz",
+		"readOn": "2026-02-25T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://shkspr.mobi/blog/2026/02/this-time-is-different/",
+		"name": "This time is different",
+		"author": "Terence Eden",
+		"readOn": "2026-02-26T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html",
+		"name": "Cleaning up merged git branches: a one-liner from the CIA's leaked dev docs",
+		"author": "Spencer Dixon",
+		"readOn": "2026-02-27T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://ben-mini.com/2026/the-happiest-ive-ever-been",
+		"name": "The happiest I’ve ever been",
+		"author": "Ben Wallace",
+		"readOn": "2026-02-28T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-3-the-website/",
+		"name": "Web History Chapter 3: The Website",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-02-28T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://machielreyneke.com/blog/persuasion/",
+		"name": "4,500 Physicians Agree",
+		"author": "Machiel Reyneke",
+		"readOn": "2026-03-01T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-4-search/",
+		"name": "Web History Chapter 4: Search",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-03-01T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-5-publishing/",
+		"name": "Web History Chapter 5: Publishing",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-03-07T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://tomjohnell.com/llms-can-be-absolutely-exhausting/",
+		"name": "LLMs can be absolutely exhausting",
+		"author": "Tom Johnell",
+		"readOn": "2026-03-16T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://tobiasberg.net/posts/my-macbook-keyboard-is-broken-and-its-insanely-expensive-to-fix/",
+		"name": "My Macbook Keyboard is Broken and it's Insanely Expensive to Fix",
+		"author": "Tobias Berg",
+		"readOn": "2026-03-30T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://fortune.com/2026/02/11/something-big-is-happening-ai-february-2020-moment-matt-shumer/",
+		"name": "Something big is happening in AI — and most people will be blindsided",
+		"author": "Matt Shumer",
+		"readOn": "2026-04-13T00:00:00",
+		"note": "Interesting read, but a lot of this needs to be taken with a massive grain of salt."
+	},
+	{
+		"url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/",
+		"name": "Is anybody else bored of talking about AI?",
+		"author": "Jake Saunders",
+		"readOn": "2026-04-13T00:00:00",
+		"note": ""
+	}
+]

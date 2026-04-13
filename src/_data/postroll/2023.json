@@ -1,0 +1,32 @@
+[
+	{
+		"url": "https://blog.mnavarro.dev/a-crud-reality",
+		"name": "A CRUD Reality",
+		"author": "Matías Navarro-Carter",
+		"readOn": "2023-08-06T00:00:00"
+	},
+	{
+		"url": "https://akrabat.com/use-exiftool-to-remove-private-data-in-images/",
+		"name": "Use ExifTool to remove private data in images",
+		"author": "Rob Allen",
+		"readOn": "2023-09-01T00:00:00"
+	},
+	{
+		"url": "https://blakewatson.com/journal/magnoliajs-2023-the-joys-of-home-cooked-apps/",
+		"name": "The joys of home-cooked apps",
+		"author": "Blake Watson",
+		"readOn": "2023-10-20T00:00:00"
+	},
+	{
+		"url": "https://www.tommyp.org/blog/rss-was-a-glimpse-of-a-future",
+		"name": "RSS was a glimpse of a future",
+		"author": "Tommy Palmer",
+		"readOn": "2023-11-21T00:00:00"
+	},
+	{
+		"url": "https://tonsky.me/blog/unicode/",
+		"name": "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)",
+		"author": "Niki",
+		"readOn": "2023-12-13T00:00:00"
+	}
+]
