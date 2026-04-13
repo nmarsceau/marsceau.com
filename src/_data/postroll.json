@@ -1457,5 +1457,19 @@
 		"author": "Tobias Berg",
 		"readOn": "2026-03-30T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://fortune.com/2026/02/11/something-big-is-happening-ai-february-2020-moment-matt-shumer/",
+		"name": "Something big is happening in AI — and most people will be blindsided",
+		"author": "Matt Shumer",
+		"readOn": "2026-04-13T00:00:00",
+		"note": "Interesting read, but a lot of this needs to be taken with a massive grain of salt."
+	},
+	{
+		"url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/",
+		"name": "Is anybody else bored of talking about AI?",
+		"author": "Jake Saunders",
+		"readOn": "2026-04-13T00:00:00",
+		"note": ""
 	}
 ]
