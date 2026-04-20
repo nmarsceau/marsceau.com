@@ -236,5 +236,19 @@
 		"author": "Carl Kolon",
 		"readOn": "2026-04-16T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-6-web-design/",
+		"name": "Web History Chapter 6: Web Design",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-04-19T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-7-standards/",
+		"name": "Web History Chapter 7: Standards",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-04-19T00:00:00",
+		"note": ""
 	}
 ]
