@@ -278,5 +278,19 @@
 		"author": "Jeremy Penner",
 		"readOn": "2026-05-29T00:00:00",
 		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-8-css/",
+		"name": "Web History Chapter 8: CSS",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-05-30T00:00:00",
+		"note": ""
+	},
+	{
+		"url": "https://css-tricks.com/chapter-9-community/",
+		"name": "Web History Chapter 9: Community",
+		"author": "Jay Hoffmann",
+		"readOn": "2026-05-30T00:00:00",
+		"note": ""
 	}
 ]
