@@ -27,8 +27,20 @@
 				"url": "https://daverupert.com/projects/hardcodesoftskills/"
 			},
 			{
+				"name": "Hondo",
+				"url": "https://www.playhondo.com/"
+			},
+			{
 				"name": "Inkwell Games - Fields",
 				"url": "https://inkwellgames.com/games/fields"
+			},
+			{
+				"name": "Inkwell Games - Loopy River",
+				"url": "https://inkwellgames.com/games/loopy-river"
+			},
+			{
+				"name": "Inkwell Games - Mosaic",
+				"url": "https://inkwellgames.com/games/mosaic"
 			},
 			{
 				"name": "Inkwell Games - Stars",
@@ -38,7 +50,18 @@
 				"name": "Mundango",
 				"url": "https://mundango.daverupert.com/"
 			},
-
+			{
+				"name": "Quina",
+				"url": "https://quina.app/"
+			},
+			{
+				"name": "Tiled Words",
+				"url": "https://tiledwords.com/"
+			},
+			{
+				"name": "Tupo",
+				"url": "https://playtupo.com/"
+			},
 			{
 				"name": "Webbed Briefs",
 				"url": "https://briefs.video"
